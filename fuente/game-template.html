@@ -1231,7 +1231,7 @@ function resolve(it,ok,given,correctHtml,explain){
  if(counts){if(ok)recordHit(it);else recordMiss(it,S.lv.id)}
  if(ok)S.done.add(it._k);else{if(counts&&!it._warm){S.errors++;S.wrong.push({it,ok:false,given})}S.missed.add(it._k);if(S.fix)S.queue.push(it)}
  progress();
- const tk=ok||it.pista?null:trickFor(it._lv||S.lv.id);
+ const tk=it.pista?null:trickFor(it._lv||S.lv.id);
  const fb=document.createElement('div');fb.className='feedback '+(ok?'good':'bad');
  fb.innerHTML=`<h3><span class="ic" aria-hidden="true">${ok?'✓':'✕'}</span>${ok?pickPraise():'Casi'}</h3>${!ok&&correctHtml?`<p>Respuesta: <b class="m">${correctHtml}</b></p>`:''}${explain?`<p>${explain}</p>`:''}${tk?`<p class="tip"><b>Truco de ${esc(tk.t)}:</b> ${esc(tk.tip)}</p>`:''}${!ok?`<p style="font-size:.88rem;color:var(--muted)">${S.fix?'Esta pregunta volverá a salir al final.':'Quedó guardada en Mejorar para repasarla.'}</p>`:''}<button class="btn big ${ok?'good':''}" id="cont">Continuar</button>`;
  const card=$('stage').querySelector('.card');card.classList.remove('pop','shake');void card.offsetWidth;card.classList.add(ok?'pop':'shake');card.appendChild(fb);$('cont').focus();
