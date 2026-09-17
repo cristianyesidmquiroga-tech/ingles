@@ -1818,7 +1818,7 @@ const clearTimers=()=>{timers.forEach(clearInterval);timers=[]};
 function warmItems(lv){
  if(lv.exam)return[];
  const gl=guideLevels(guideOf(lv)),k=gl.indexOf(lv);
- if(k<=0)return[];
+ if(k<=0||k%3!==0)return[];
  const seen=new Set();
  let pool=activeMistakes().filter(m=>{const ml=LEVELS.find(l=>l.id===m.lv);return ml&&guideOf(ml)===guideOf(lv)&&gl.indexOf(ml)<k})
   .sort((a,b)=>b.count-a.count||a.last-b.last).slice(0,3).map(m=>({...m.item,_lv:m.lv}));
