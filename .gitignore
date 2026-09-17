@@ -9,3 +9,10 @@ __pycache__/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Material del curso y páginas aparte: se quedan en local, no son parte de la app
+*.docx
+*.jpeg
+*.jpg
+*.png
+repaso-ingles.html

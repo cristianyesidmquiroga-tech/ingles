@@ -22,8 +22,6 @@ Abre `camino-parcial.html` con doble clic en Chrome o Edge. No necesita instalac
 | `fuente/` | Archivos con los que se arma la app. |
 | `fuente/game-template.html` | Plantilla con la interfaz y la lógica. |
 | `fuente/*.js`, `fuente/final/*.json` | Contenido: ejercicios, explicaciones, trucos, lecturas y verbos. |
-| `repaso-ingles.html` | Página de repaso anterior. |
-| Guías `.docx` e imágenes | Material original del curso: guías RAP 4 y RAP 5 y las hojas de verbos. |
 
 ## Cómo reconstruir la app
 
