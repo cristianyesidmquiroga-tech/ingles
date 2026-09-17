@@ -205,6 +205,13 @@ h3.sub{font-size:1.1rem;margin-top:1.3rem;color:color-mix(in srgb,var(--u) 62%,v
 .ess-ej .es{color:var(--muted);font-size:.92rem;width:100%}
 .ess-ej+.ess-ej{margin-top:.55rem}
 .ess-box.ojo{background:var(--bad-bg)}
+.fx{margin-top:.6rem;display:grid;gap:.55rem}
+.fx-g+.fx-g{border-top:1px solid var(--line);padding-top:.55rem}
+.fx-sub{display:block;font-size:.82rem;font-weight:700;margin-bottom:.3rem}
+.fx-r{margin:.18rem 0!important;display:grid;grid-template-columns:5.6rem 1fr;gap:.5rem;align-items:baseline}
+.fx-l{font-size:.68rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.fx-r .en{font-family:var(--mono);font-size:.95rem}
+@media(max-width:380px){.fx-r{grid-template-columns:1fr;gap:.05rem}}
 .sn+.sn{border-top:1px solid var(--line);margin-top:.6rem;padding-top:.6rem}
 .sn p{margin:.2rem 0;display:flex;gap:.55rem;align-items:baseline;flex-wrap:wrap}
 .sn b{flex:none;font-size:.7rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;border-radius:999px;padding:.08rem .5rem}
@@ -1084,7 +1091,7 @@ function openLevel(i){
  if(!body&&!es){startLevel(i);return}
  const essHtml=es?`<div class="ess">
   <div class="ess-box"><span class="lab">Qué es</span><p>${esc(es.que)}</p></div>
-  <div class="ess-box"><span class="lab">${es.ejs===null?'Cómo hacerlo':es.ejs?'La fórmula':'Cómo se arma'}</span><p>${esc(es.arma)}</p></div>
+  <div class="ess-box"><span class="lab">${es.ejs===null?'Cómo hacerlo':es.ejs?'La fórmula':'Cómo se arma'}</span><p>${esc(es.arma)}</p>${es.formulas?`<div class="fx">${es.formulas.map(([sub,rows])=>`<div class="fx-g"><span class="fx-sub">${esc(sub)}</span>${rows.map(([lab,ex])=>`<p class="fx-r"><span class="fx-l">${esc(lab)}</span><span class="en">${esc(ex)}</span></p>`).join('')}</div>`).join('')}</div>`:''}</div>
   <div class="ess-box"><span class="lab">Cuándo se usa</span><p>${esc(es.cuando)}</p></div>
   ${es.ej?`<div class="ess-box"><span class="lab">Ejemplo</span><p class="ess-ej"><span class="en">${esc(es.ej[0])}</span><span class="es">${esc(es.ej[1])}</span></p></div>`:''}
   ${es.ejs?`<div class="ess-box"><span class="lab">Ejemplos fáciles</span>${es.ejs.map(([en,s_])=>`<p class="ess-ej"><span class="en">${esc(en)}</span><span class="es">${esc(s_)}</span></p>`).join('')}</div>`:''}
