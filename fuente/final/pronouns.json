@@ -1,0 +1,184 @@
+{
+ "key": "pronouns",
+ "title_es": "Pronombres sujeto y objeto (I/me, he/him, they/them)",
+ "explanation_es": "Los pronombres reemplazan el nombre de una persona o cosa para no repetirlo. Los pronombres sujeto (I, you, he, she, it, we, they) van antes del verbo y dicen quién hace la acción: \"She works at the center\". Los pronombres objeto (me, you, him, her, it, us, them) van después del verbo o de una preposición y dicen quién recibe la acción: \"The boss called me\", \"I work with her\".\n\nEn afirmativa y negativa el orden es sujeto + verbo + objeto: \"I help them\", \"I don't help them\". En la pregunta el auxiliar va antes del sujeto: \"Do you help them?\".\n\nEn español los pronombres objeto son me, te, lo, la, le, nos, los, las, les. La diferencia clave es el orden: en español el objeto va antes del verbo conjugado (\"lo vi\", \"la llamé\") y en inglés va después (\"I saw him\", \"I called her\"). En los imperativos el español lo pega al verbo (\"ayúdame\", \"envíamelo\") y el inglés lo escribe separado (\"help me\", \"send it to me\"). Además, en inglés el sujeto no se omite, salvo en imperativos: di \"I work at SENA\", no \"work at SENA\".\n\nOtra trampa: después de preposición el español usa las mismas palabras del sujeto (con él, con ella, para ellos), pero el inglés cambia a objeto: \"with him\", \"with her\", \"for them\".\n\nCasos que confunden: \"her\" es objeto (\"I called her\") y también posesivo (\"her laptop\"). \"Them\" sirve para personas y cosas en plural. Con dos personas, revisa la función: \"My classmate and I wrote the code\" (sujeto), \"The instructor helped my classmate and me\" (objeto). Truco: quita a la otra persona y escucha cómo suena.\n\nSeñales para el examen escrito: después de una preposición (with, to, for, about) o de verbos como help, call, send, ask, show, tell, va pronombre objeto; antes del verbo va pronombre sujeto.",
+ "contrast": [
+  {
+   "en": "I saw him at the warehouse yesterday.",
+   "es": "Lo vi ayer en la bodega.",
+   "note_es": "En español el pronombre va antes del verbo (lo vi); en inglés va después del verbo (saw him)."
+  },
+  {
+   "en": "Help me with this query, please.",
+   "es": "Ayúdame con esta consulta, por favor.",
+   "note_es": "En español el pronombre se pega al verbo (ayúdame); en inglés son dos palabras separadas: help me."
+  },
+  {
+   "en": "My instructor explained the database to us.",
+   "es": "Mi instructor nos explicó la base de datos.",
+   "note_es": "Nos va antes del verbo en español; en inglés us va al final, después de la preposición to."
+  },
+  {
+   "en": "I sent it to her this morning.",
+   "es": "Se lo envié esta mañana.",
+   "note_es": "Fíjate en el orden: primero la cosa (it) y después la persona con to (to her). En español se lo va antes del verbo, y ese se reemplaza a le, es decir, a ella."
+  },
+  {
+   "en": "She works with them every day.",
+   "es": "Ella trabaja con ellos todos los días.",
+   "note_es": "En español decimos con ellos, la misma palabra del sujeto. En inglés, después de una preposición como with, cambia a objeto: with them, nunca with they."
+  },
+  {
+   "en": "My classmate and I developed the login module.",
+   "es": "Mi compañero y yo desarrollamos el módulo de inicio de sesión.",
+   "note_es": "Como es el sujeto, va I, y por cortesía se pone de segundo. Si fuera objeto sería me: The boss congratulated my classmate and me."
+  },
+  {
+   "en": "I tested the system and it works well.",
+   "es": "Probé el sistema y funciona bien.",
+   "note_es": "En español no decimos el sujeto (funciona); en inglés it es obligatorio, no puedes decir and works well."
+  }
+ ],
+ "common_errors": [
+  {
+   "wrong": "The instructor helped I with the code.",
+   "right": "The instructor helped me with the code.",
+   "why_es": "Después del verbo va pronombre objeto (me), no sujeto (I). Piensa en español: me ayudó a mí, nunca ayudó a yo."
+  },
+  {
+   "wrong": "I work with they in the warehouse.",
+   "right": "I work with them in the warehouse.",
+   "why_es": "En español decimos con ellos, igual que el sujeto, pero en inglés después de una preposición (with, to, for, about, by) siempre va objeto: with them. They es sujeto: va antes del verbo, o después del auxiliar en preguntas (Do they work here?)."
+  },
+  {
+   "wrong": "Me and Patrick tested the app.",
+   "right": "Patrick and I tested the app.",
+   "why_es": "Cuando tú y otra persona son el sujeto, usa I y ponte de segundo. Truco: quita a Patrick y escucha: I tested the app suena bien, Me tested the app no."
+  },
+  {
+   "wrong": "Is a good project.",
+   "right": "It is a good project.",
+   "why_es": "En español omitimos el sujeto (es un buen proyecto), pero en inglés siempre hay que decirlo: It is. Una oración sin sujeto es un error en el examen escrito."
+  },
+  {
+   "wrong": "Laura is my teammate. I work with she and his team.",
+   "right": "Laura is my teammate. I work with her and her team.",
+   "why_es": "Después de with va objeto: with her (con ella), no with she. Además her sirve como posesivo: her team (su equipo). En español su no dice el género, pero en inglés sí: his es de él, her es de ella."
+  },
+  {
+   "wrong": "I called to him yesterday.",
+   "right": "I called him yesterday.",
+   "why_es": "En español decimos llamé a Juan, con a, pero call no lleva preposición en inglés: I called him. Lo mismo pasa con help, ask y tell: I asked him, I told her."
+  },
+  {
+   "wrong": "The system is easy. I like very much.",
+   "right": "The system is easy. I like it very much.",
+   "why_es": "En español decimos me gusta mucho sin nombrar la cosa que nos gusta, pero like en inglés necesita un objeto: siempre hay que decir qué te gusta, I like it."
+  }
+ ],
+ "oral_questions": [
+  {
+   "question": "Do you help your classmates with programming?",
+   "model_answer": "Yes, I help them every week. They ask me questions about SQL and I explain the queries to them.",
+   "focus": "Pronombres objeto them y me después del verbo (help them, ask me) y después de preposición (to them)."
+  },
+  {
+   "question": "Who tests the access-control system?",
+   "model_answer": "My team tests it. We test it every Friday and the instructor checks it with us.",
+   "focus": "It para el sistema, we como sujeto, us después de la preposición with."
+  },
+  {
+   "question": "How often do you talk to your instructor about the project?",
+   "model_answer": "I talk to him twice a week. He gives me feedback and I send him the new version.",
+   "focus": "Him después de preposición (to him) y después de verbo (send him); he como sujeto; me como objeto."
+  },
+  {
+   "question": "What do you do when your boss asks you for a report?",
+   "model_answer": "I ask her what she needs. Then I create the report and send it to her by email.",
+   "focus": "Her como objeto y she como sujeto; it para el reporte; orden send it to her."
+  },
+  {
+   "question": "Where do you keep the warehouse data?",
+   "model_answer": "We keep it in a PostgreSQL database. Only the administrator can edit it, but the guards can see it.",
+   "focus": "It para los datos; sujetos we, the administrator, the guards."
+  },
+  {
+   "question": "Why is your family important to you?",
+   "model_answer": "They support me a lot. My mother calls me every day and I visit them on weekends.",
+   "focus": "They y them para la familia; me como objeto después de support y calls."
+  },
+  {
+   "question": "Which classmate do you work with the most?",
+   "model_answer": "I work with Andrés the most. He writes the backend and I help him with the database.",
+   "focus": "Preposición with, he como sujeto y him como objeto para la misma persona."
+  },
+  {
+   "question": "Can you describe your team to me?",
+   "model_answer": "Sure. We are a team of three students. Laura designs the screens, Andrés programs the backend, and I test everything with them.",
+   "focus": "We e I como sujetos; them después de with para referirse a los dos compañeros."
+  },
+  {
+   "question": "When did you last present your project?",
+   "model_answer": "I presented it last month. My instructor liked it and she gave us good feedback.",
+   "focus": "It para el proyecto en pasado; she como sujeto; us como objeto después de gave."
+  },
+  {
+   "question": "Did your boss give you the equipment list?",
+   "model_answer": "Yes, he gave it to me yesterday. I uploaded it to the system and I sent him a confirmation.",
+   "focus": "Orden gave it to me (cosa + to + persona); him como objeto indirecto después de sent (sent him a confirmation)."
+  }
+ ],
+ "roleplay": {
+  "situation_es": "Estás en el centro de gestión agroempresarial. Tu jefe te pregunta por un equipo de cómputo externo que un técnico trajo hoy, por el inventario de la bodega y por el sistema de control de acceso que usan los guardas. Fíjate en que cada respuesta usa un pronombre objeto (it, him, them, me, you, us) en vez de repetir los nombres, y que el pronombre siempre va después del verbo o de la preposición.",
+  "lines": [
+   {
+    "speaker": "Boss",
+    "line": "Good morning. Did you register the new external equipment?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes, I registered it this morning. A technician brought it at eight."
+   },
+   {
+    "speaker": "Boss",
+    "line": "Who is the technician? Do you know him?"
+   },
+   {
+    "speaker": "You",
+    "line": "His name is Carlos. I checked his ID and I gave him a visitor pass."
+   },
+   {
+    "speaker": "Boss",
+    "line": "Good. And the warehouse items? Did you count them?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes, I counted them with Laura. She helped me with the list and I sent it to you by email."
+   },
+   {
+    "speaker": "Boss",
+    "line": "Perfect. I'll read it later. Do the guards use the system?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes, they use it every day. We trained them last week."
+   },
+   {
+    "speaker": "Boss",
+    "line": "Great. Can you show me the new report screen after lunch?"
+   },
+   {
+    "speaker": "You",
+    "line": "Of course. I'll show it to you at two. My team can join us and explain the code."
+   },
+   {
+    "speaker": "Boss",
+    "line": "Thank you. Tell them I'm very happy with their work."
+   },
+   {
+    "speaker": "You",
+    "line": "I'll tell them. They'll be glad to hear it."
+   }
+  ]
+ }
+}

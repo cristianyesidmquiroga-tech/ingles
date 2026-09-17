@@ -1,0 +1,175 @@
+{
+ "key": "oral",
+ "monologue_project": {
+  "title": "My Last Project",
+  "text_en": "I want to tell you about my last project at SENA. Last year, my team and I started a software project for an agribusiness center. The center needed a system to register its staff, warehouse items and visitors' equipment. Before our project, the guards used to write everything in a notebook, and they didn't use to check the equipment carefully.\n\nFirstly, we went to the center and interviewed the staff. We asked them about their problems and wrote down their answers. Then, we designed the database. While I was creating the tables, my partner was drawing the diagrams. One day, when we were testing the login form, the server stopped working. However, our instructor helped us, and we found the error in the code, so we fixed it quickly. Finally, we showed the first version to the guards, and they liked it a lot because it was fast and easy.\n\nSince then, I have learned a lot. I have worked with databases for many months, and our team has already finished the user manual. I have just started a new module for the warehouse. Have you ever used an access-control system? It is really useful.",
+  "gloss_es": "Mi último proyecto.\n\nLes quiero contar sobre mi último proyecto en el SENA. El año pasado, mi equipo y yo empezamos un proyecto de software para un centro agroempresarial. El centro necesitaba un sistema para registrar a su personal, los elementos del almacén y los equipos de los visitantes. Antes de nuestro proyecto, los vigilantes anotaban todo en un cuaderno y no revisaban bien los equipos.\n\nPrimero, fuimos al centro y entrevistamos al personal. Les preguntamos por sus problemas y anotamos sus respuestas. Luego, diseñamos la base de datos. Mientras yo estaba creando las tablas, mi compañero estaba haciendo los diagramas. Un día, cuando estábamos probando el formulario de inicio de sesión, el servidor dejó de funcionar. Sin embargo, nuestro instructor nos ayudó y encontramos el error en el código, así que lo arreglamos rápido. Finalmente, les mostramos la primera versión a los vigilantes y les gustó mucho porque era rápida y fácil de usar.\n\nDesde entonces, he aprendido mucho. Llevo muchos meses trabajando con bases de datos, y nuestro equipo ya terminó el manual de usuario. Acabo de empezar un módulo nuevo para el almacén. ¿Ustedes alguna vez han usado un sistema de control de acceso? Es muy útil.\n\nOjo con tres diferencias con el español. Primero, used to casi siempre se traduce natural con el imperfecto (anotaban, no revisaban), no siempre con solían. Segundo, lo que en español decimos llevo muchos meses trabajando, en inglés se dice I have worked for many months. Tercero, en español decimos ya terminó, pero en inglés con already se usa present perfect: has already finished.",
+  "features_used": [
+   "Past simple, regular verbs: started, needed, interviewed, asked, designed, stopped, helped, fixed, showed, liked",
+   "Past simple, irregular verbs: we went to the center, wrote down their answers, we found the error, it was fast and easy",
+   "Pronunciación -ED /id/: started, needed; /t/: asked, stopped, helped, fixed, liked; /d/: interviewed, designed, showed",
+   "Past continuous with while: While I was creating the tables, my partner was drawing the diagrams.",
+   "Past continuous with when: One day, when we were testing the login form, the server stopped working.",
+   "Used to (affirmative): the guards used to write everything in a notebook",
+   "Didn't use to (negative): they didn't use to check the equipment carefully",
+   "Present perfect with since: Since then, I have learned a lot.",
+   "Present perfect with for: I have worked with databases for many months",
+   "Present perfect with already: our team has already finished the user manual",
+   "Present perfect with just: I have just started a new module for the warehouse.",
+   "Present perfect with ever: Have you ever used an access-control system?",
+   "Object pronoun you: I want to tell you about my last project",
+   "Object pronoun them: We asked them about their problems",
+   "Object pronoun us: our instructor helped us",
+   "Object pronoun it: so we fixed it quickly / they liked it a lot",
+   "Time expressions: Last year, One day, Since then, for many months",
+   "Linking words: Firstly, Then, While, when, However, so, Finally, because, and"
+  ],
+  "template_en": "I want to tell you about my last project at [SENA]. [Last year], my team and I started a software project for [an agribusiness center]. The [center] needed a system to [register its staff, warehouse items and visitors' equipment]. Before our project, the [guards] used to [write everything in a notebook], and they didn't use to [check the equipment carefully].\n\nFirstly, we went to [the center] and interviewed [the staff]. We asked them about [their problems] and wrote down their answers. Then, we designed [the database]. While I was [creating the tables], my partner was [drawing the diagrams]. One day, when we were [testing the login form], [the server] stopped working. However, [our instructor] helped us, and we found [the error in the code], so we fixed it quickly. Finally, we showed [the first version] to [the guards], and they liked it a lot because it was [fast and easy].\n\nSince then, I have learned a lot. I have worked with [databases] for [many months], and our team has already finished [the user manual]. I have just started [a new module for the warehouse]. Have you ever used [an access-control system]? It is [really useful]."
+ },
+ "monologue_invention": {
+  "title": "The QR Code",
+  "text_en": "An invention that I find very interesting is the QR code. A Japanese engineer called Masahiro Hara invented it in 1994. At that time, he was working for Denso, a company that makes car parts. Before the QR code, factory workers used to scan many barcodes on each box, so the work was slow. The black and white stones of the board game Go gave Hara an idea. Then, his team created a square code that could store much more information. Denso owned the invention. However, the company let everyone use the code for free, so the QR code became popular all over the world.\n\nSince then, QR codes have changed our daily lives. People have used them to pay, to read menus and to share Wi-Fi passwords. I like this invention because it is simple and cheap. In my opinion, it is also perfect for access control, because a guard can scan a code in a few seconds.",
+  "gloss_es": "El código QR.\n\nUn invento que me parece muy interesante es el código QR. Lo inventó un ingeniero japonés llamado Masahiro Hara, en 1994. En esa época trabajaba en Denso, una empresa que fabrica autopartes. Antes del código QR, los trabajadores de las fábricas escaneaban muchos códigos de barras en cada caja, así que el trabajo era lento. Las fichas blancas y negras del juego de mesa Go le dieron la idea a Hara. Luego, su equipo creó un código cuadrado que podía guardar mucha más información. El invento era de Denso. Sin embargo, la empresa dejó que cualquiera usara el código gratis, y por eso el código QR se volvió popular en todo el mundo.\n\nDesde entonces, los códigos QR han cambiado nuestra vida diaria. La gente los ha usado para pagar, para ver menús y para compartir la clave del wifi. Me gusta este invento porque es sencillo y barato. En mi opinión, también es perfecto para el control de acceso, porque un vigilante puede escanear un código en pocos segundos.\n\nFíjate: la historia va en pasado simple (invented, gave, created, owned, let, became), el contexto en past continuous (was working), la costumbre de antes con used to (used to scan) y el impacto actual en present perfect (have changed, have used)."
+ },
+ "presentation_modals": {
+  "title": "Rules and Advice at a Software Company",
+  "text_en": "Good morning. Today I am going to explain some rules at a software company. Firstly, when you arrive, you have to show your ID card, and you must log in to the system with your own password. You mustn't share your password with anyone because it is a security risk. Then, you have to attend the team meeting every Monday, but you can work from home on Fridays. You don't have to wear formal clothes. If you have a problem with your code, you should ask a teammate for help. After that, before you go home, you must back up your work because the server might fail. Visitors may use the meeting room, but they must sign in at reception. Finally, if you need a day off, you should ask your boss politely. For example, you could say, \"Could I take Friday off, please?\" or \"Would you please sign my request?\" In my opinion, these rules help the team work better. Thank you.",
+  "gloss_es": "Reglas y consejos en una empresa de software.\n\nBuenos días. Hoy les voy a explicar algunas reglas de una empresa de software. Primero, cuando llegas, tienes que mostrar tu carné y debes iniciar sesión en el sistema con tu propia contraseña. No puedes compartir tu contraseña con nadie, porque es un riesgo de seguridad. Luego, tienes que asistir a la reunión de equipo todos los lunes, pero puedes trabajar desde la casa los viernes. No es obligatorio ir con ropa formal. Si tienes un problema con tu código, deberías pedirle ayuda a un compañero. Después de eso, antes de irte para la casa, debes hacer una copia de seguridad de tu trabajo, porque el servidor podría fallar. Los visitantes pueden usar la sala de reuniones, pero deben registrarse en recepción. Finalmente, si necesitas un día libre, deberías pedírselo a tu jefe de buena manera. Por ejemplo, podrías decir: \"¿Me podría dar el viernes libre, por favor?\" o \"¿Me haría el favor de firmarme la solicitud?\" En mi opinión, estas reglas ayudan a que el equipo trabaje mejor. Gracias.\n\nResumen de modales: must y have to para obligación (debes, tienes que); mustn't para prohibición (no puedes, está prohibido); don't have to para algo que no es necesario (no es obligatorio), así que no lo confundas con mustn't; should para consejo (deberías); can y may para permiso (puedes, pueden); could y would para pedir algo con cortesía (¿me podría...?, ¿me haría el favor...?); might para posibilidad (podría pasar). Verbos frasales usados: log in (iniciar sesión), back up (hacer copia de seguridad), sign in (registrarse), take off (tomarse un día libre)."
+ },
+ "process_steps": {
+  "title": "How to Register a Visitor in the Access-Control System",
+  "text_en": "Today I am going to explain how to register a visitor in our system. Firstly, you have to log in with your username and password. Secondly, click on the \"Visitors\" menu and select \"New visitor\". Next, you must type the visitor's name, ID number and the reason for the visit. After that, if the visitor has their own equipment, such as a laptop, you should write down its brand and serial number. You can also take a photo of it. Then, check all the information carefully, because a mistake might cause problems later. Finally, click \"Save\" and give them a visitor card. Remember that when the visitor leaves, you must check the equipment again and enter the exit time.",
+  "gloss_es": "Cómo registrar a un visitante en el sistema de control de acceso.\n\nHoy les voy a explicar cómo registrar a un visitante en nuestro sistema. Primero, tienes que iniciar sesión con tu usuario y contraseña. En segundo lugar, haz clic en el menú \"Visitantes\" y selecciona \"Nuevo visitante\". A continuación, debes escribir el nombre del visitante, el número de cédula y el motivo de la visita. Después de eso, si el visitante trae su propio equipo, como un portátil, deberías anotar la marca y el número de serie. También le puedes tomar una foto. Luego, revisa bien toda la información, porque un error podría causar problemas más adelante. Finalmente, haz clic en \"Guardar\" y entrégale una tarjeta de visitante. Recuerda que cuando el visitante salga, debes revisar el equipo otra vez y registrar la hora de salida.\n\nConectores de secuencia: Firstly (primero), Secondly (en segundo lugar), Next (a continuación), After that (después de eso), Then (luego), Finally (finalmente). Modales: have to, must, should, can, might. Verbos frasales: log in (iniciar sesión), write down (anotar)."
+ },
+ "survival_phrases": [
+  {
+   "en": "Sorry, could you repeat the question, please?",
+   "es": "Disculpe, ¿me podría repetir la pregunta, por favor?",
+   "when_es": "Cuando no entendiste la pregunta del instructor. Es mucho mejor que quedarte callado o responder otra cosa."
+  },
+  {
+   "en": "Could you speak more slowly, please?",
+   "es": "¿Podría hablar más despacio, por favor?",
+   "when_es": "Cuando el instructor o tu compañero de role-play habla muy rápido y te pierdes."
+  },
+  {
+   "en": "Do you mean...?",
+   "es": "¿Se refiere a...?",
+   "when_es": "Para confirmar que entendiste bien antes de responder, por ejemplo: Do you mean my last project at SENA?"
+  },
+  {
+   "en": "Let me think for a moment.",
+   "es": "Déjeme pensar un momento.",
+   "when_es": "Cuando necesitas unos segundos para organizar la respuesta. Suena natural y evita el silencio largo."
+  },
+  {
+   "en": "That's a good question.",
+   "es": "Buena pregunta.",
+   "when_es": "Para ganar tiempo al inicio de una respuesta difícil, mientras piensas qué decir. No la uses en todas las preguntas."
+  },
+  {
+   "en": "Sorry, I mean...",
+   "es": "Perdón, quiero decir...",
+   "when_es": "Para corregirte tú mismo si cometes un error, por ejemplo: I go... sorry, I mean I went. Autocorregirse muestra que controlas la gramática."
+  },
+  {
+   "en": "What I mean is...",
+   "es": "Lo que quiero decir es...",
+   "when_es": "Para explicar otra vez una idea con palabras más sencillas cuando sientes que no se entendió."
+  },
+  {
+   "en": "I don't know the exact word, but it's something like...",
+   "es": "No sé la palabra exacta, pero es algo como...",
+   "when_es": "Cuando te falta una palabra en inglés. Describes la idea en vez de pasarte al español."
+  },
+  {
+   "en": "First of all, ...",
+   "es": "En primer lugar, ...",
+   "when_es": "Para empezar una respuesta larga o una presentación de forma ordenada."
+  },
+  {
+   "en": "Another important point is...",
+   "es": "Otro punto importante es...",
+   "when_es": "Para pasar a la siguiente idea en una presentación de reglas o de un proceso."
+  },
+  {
+   "en": "For example, ...",
+   "es": "Por ejemplo, ...",
+   "when_es": "Para dar un ejemplo concreto de tu proyecto o tu trabajo después de una idea general."
+  },
+  {
+   "en": "To sum up, ... That's all. Thank you.",
+   "es": "En resumen, ... Eso es todo. Gracias.",
+   "when_es": "Para cerrar tu monólogo o presentación de manera clara y que el instructor sepa que terminaste."
+  }
+ ],
+ "oral_techniques": [
+  {
+   "name": "Técnica 4/3/2 (repetir lo mismo con menos tiempo)",
+   "how_es": "Escribe en una tarjeta solo 5 palabras clave del monólogo My Last Project (por ejemplo: notebook, interviewed, server, instructor, since then) y pon un temporizador en el celular.\n\nRonda 1: cuéntalo en voz alta en 4 minutos. Ronda 2: sin descansar, cuenta exactamente lo mismo en 3 minutos. Ronda 3: otra vez en 2 minutos. No leas el texto, mira solo las palabras clave. Lo ideal es cambiar de oyente en cada ronda (tu mamá, un hermano, un compañero por videollamada); si estás solo, grábate las tres versiones.\n\nCada ciclo dura unos 10 minutos con la preparación. Día 1: un ciclo con el monólogo del proyecto y otro con la presentación de reglas. Día 2: un ciclo con el proceso paso a paso y otro con el invento.",
+   "why_es": "Nation (1989) y Arevart y Nation (1991) probaron esta técnica con estudiantes de inglés: al repetir el mismo contenido con menos tiempo y a oyentes distintos, en la tercera versión hablaban más rápido y con menos titubeos. La razón es que la segunda y la tercera vez ya no gastas energía en decidir qué decir, sino en cómo decirlo, y las frases se vuelven más automáticas.\n\nSiendo honestos: esos estudios midieron sobre todo la mejora dentro de la misma sesión y con el mismo tema. Te sirve justamente porque en el examen vas a hablar de temas que ya ensayaste, no porque mejore tu fluidez general en dos días."
+  },
+  {
+   "name": "Shadowing (repetir como una sombra)",
+   "how_es": "Consigue un audio de 1 a 2 minutos: puede ser tu propio monólogo leído por la función de lectura en voz alta del navegador o de Google Traductor (con voz en inglés), o un audio corto de nivel A2 o B1 que tenga transcripción.\n\nMinutos 1 a 3: escúchalo dos veces leyendo el texto. Minutos 4 a 7: repite en voz alta casi al mismo tiempo que el audio, medio segundo detrás, mirando el texto, 3 veces seguidas. Minutos 8 a 10: repite otras 2 o 3 veces sin mirar. Fíjate en la terminación -ED (started con /id/, stopped con /t/, designed con /d/), en cómo se unen las palabras y en el ritmo.\n\nHazlo 10 minutos cada día, mejor en dos momentos distintos que todo seguido.",
+   "why_es": "Foote y McDonough (2017, Journal of Second Language Pronunciation) pusieron a estudiantes a hacer shadowing con el celular durante varias semanas, y los oyentes calificaron su habla como más comprensible y más fluida. Hamada (2016, Language Teaching Research) encontró mejoras sobre todo en la comprensión auditiva, porque la técnica obliga a percibir cada sonido.\n\nSiendo honestos: son estudios con grupos pequeños y varias semanas de práctica, así que en dos días no vas a cambiar tu acento. Lo que sí logras es pronunciar mejor las frases exactas que vas a decir en el examen, y eso ayuda al criterio de pronunciación clara."
+  },
+  {
+   "name": "Práctica de recuperación espaciada (autopreguntas sin mirar)",
+   "how_es": "Escribe en tarjetas las 8 tareas orales probables de este paquete, una por tarjeta. Saca una al azar y respóndela en voz alta durante 1 a 2 minutos sin mirar ninguna nota.\n\nDespués compara con el modelo y anota en la tarjeta lo que olvidaste o dijiste mal (por ejemplo: olvidé usar while). Vuelve a sacar solo las tarjetas que fallaste hasta que te salgan bien una vez sin ayuda.\n\nReparte la práctica en sesiones separadas: 15 minutos el día 1 en la tarde, 15 minutos el día 2 en la mañana, 15 minutos el día 2 en la noche y 10 minutos el día del examen antes de entrar. Que haya una noche de sueño entre sesiones cuenta a tu favor.",
+   "why_es": "Roediger y Karpicke (2006, Perspectives on Psychological Science) revisaron la investigación sobre el efecto de prueba: tratar de recordar algo sin mirar deja una memoria más duradera que volver a leerlo. Karpicke y Roediger (2008, Science) lo confirmaron con estudiantes que aprendían palabras en suajili: los que practicaban recordando retuvieron mucho más una semana después que los que solo repasaban leyendo.\n\nSobre el espaciado, Cepeda y colegas (2006, Psychological Bulletin) analizaron cientos de experimentos y encontraron que repartir el estudio en sesiones separadas funciona mejor que estudiar todo de una vez. Aclaración honesta: estos estudios son sobre recordar palabras y datos, no sobre hablar. Aquí se aplican porque en el examen tienes que sacar de la memoria frases y estructuras sin notas."
+  },
+  {
+   "name": "Grabarte y transcribirte",
+   "how_es": "Grábate con el celular contando tu monólogo durante 2 minutos, sin leer.\n\nEscucha la grabación y escribe palabra por palabra lo que dijiste, incluidos los errores y las pausas (10 a 15 minutos). Subraya con otro color los errores de tiempo verbal, de pronombres y de terminación -ED, y escribe la forma correcta encima.\n\nLee en voz alta 2 veces la versión corregida, vuelve a grabarte sin leer y compara las dos grabaciones. Son unos 25 minutos: hazlo una vez el día 1 con el monólogo del proyecto y una vez el día 2 con la presentación de reglas o el proceso.",
+   "why_es": "Lynch (2001, ELT Journal) mostró que cuando los estudiantes transcriben su propia grabación notan errores que no perciben mientras hablan, y la versión que corrigen es más precisa. Mennim (2003, ELT Journal) encontró que estudiantes que transcribieron y revisaron el ensayo de su presentación antes de hacerla usaron con más precisión las formas que habían corregido.\n\nSon estudios de aula con grupos pequeños, pero la lógica es sólida: descubres tus errores repetidos antes del examen y no frente al instructor. Así cuidas el criterio de estructura gramatical."
+  },
+  {
+   "name": "Bloques de frases fijas (chunks)",
+   "how_es": "Escoge 20 frases completas de este paquete que te sirvan para cualquier tema, por ejemplo: Last year, my team and I started..., While I was..., my partner was..., Have you ever...?, You mustn't... because..., In my opinion..., Sorry, could you repeat the question, please?\n\nDi cada frase en voz alta 5 veces y luego inventa una oración tuya con ella, sobre tu trabajo o tu familia. Un bloque de 10 frases toma unos 10 minutos.\n\nDía 1 y día 2: 10 minutos en la mañana y 10 en la noche. Día del examen: repaso rápido de 5 minutos diciendo solo las 20 frases.",
+   "why_es": "Wood (2010) analizó el habla de estudiantes de inglés y encontró que quienes usaban más secuencias fijas de palabras hablaban en tramos más largos y con menos pausas, porque no tenían que construir cada oración desde cero. Boers y colegas (2006, Language Teaching Research) mostraron que unos evaluadores dieron mejor calificación oral a los estudiantes que usaban más de estos bloques. Wray (2002) propone que la mente guarda muchas de estas frases como una sola unidad, lista para usar.\n\nLimitación honesta: memorizar frases no reemplaza la gramática. Úsalas como estructura y cambia los detalles según la pregunta."
+  }
+ ],
+ "likely_oral_tasks": [
+  {
+   "task_es": "Presentar un texto oral sobre una experiencia pasada en el ámbito laboral o de estudio, por ejemplo tu último proyecto en el SENA.",
+   "plan_es": "Paso 1: Di cuándo y dónde pasó y cómo eran las cosas antes, con pasado simple, una expresión de tiempo (last year, two months ago) y used to (the guards used to write everything in a notebook).\n\nPaso 2: Cuenta qué hicieron en orden con firstly, then, however, so y finally, e incluye un problema con past continuous y when o while (when we were testing the login form, the server stopped working).\n\nPaso 3: Cierra con present perfect sobre el resultado o lo que has aprendido, usando since, for, already o just (Since then, I have learned a lot).",
+   "opener_en": "I want to tell you about my last project at SENA."
+  },
+  {
+   "task_es": "Presentar un texto oral sobre una experiencia pasada en el ámbito familiar, como un viaje, una celebración o un día especial.",
+   "plan_es": "Paso 1: Di cuándo fue, con quién y a dónde fueron, usando pasado simple regular e irregular (visited, travelled, went, ate) y una expresión de tiempo como last December.\n\nPaso 2: Describe algo que estaba pasando y lo que lo interrumpió con past continuous y when (We were having dinner when my uncle arrived with a surprise), y compara con una costumbre de antes usando used to (We used to visit them every year).\n\nPaso 3: Termina con tu opinión y una frase en present perfect (It was a great day. I have never forgotten it).",
+   "opener_en": "Last December, my family and I visited my grandparents."
+  },
+  {
+   "task_es": "Role-play de una situación laboral: eres el vigilante o el funcionario de la portería y atiendes a un visitante que llega con un portátil u otro equipo externo.",
+   "plan_es": "Paso 1: Saluda y pide los datos con cortesía usando could y would (Could I see your ID card, please? Would you write your name here, please?).\n\nPaso 2: Explica las reglas con have to, must, mustn't y can (You have to register your laptop. You mustn't enter the warehouse. You can wait here).\n\nPaso 3: Confirma la información, responde si el visitante pregunta algo y despídete con una frase amable (Thank you. Have a nice day).",
+   "opener_en": "Good morning. Could I see your ID card, please?"
+  },
+  {
+   "task_es": "Role-play de una situación cotidiana: pides comida en un restaurante o compras algo en una tienda, y el instructor hace de mesero o de vendedor.",
+   "plan_es": "Paso 1: Saluda y pide con cortesía usando could o would like (Could I see the menu, please? I would like a chicken sandwich, please).\n\nPaso 2: Haz una o dos preguntas y responde lo que te pregunten (How much is it? Can I pay by card? Yes, please. No, thank you).\n\nPaso 3: Cierra la situación agradeciendo y despidiéndote (That's all, thank you. Have a nice day).",
+   "opener_en": "Good afternoon. Could I see the menu, please?"
+  },
+  {
+   "task_es": "Hacer una presentación oral sobre las obligaciones, prohibiciones, permisos y consejos de tu lugar de trabajo o de estudio, usando verbos modales, conectores y verbos frasales.",
+   "plan_es": "Paso 1: Saluda, anuncia el tema y empieza con las obligaciones usando must y have to, con verbos frasales como log in o sign in (Firstly, you have to sign in at reception).\n\nPaso 2: Sigue con prohibiciones (mustn't), cosas no obligatorias (don't have to), permisos (can, may), consejos (should) y posibilidades (might), unidas con then, after that y because.\n\nPaso 3: Termina con finally, un ejemplo de solicitud con could o would (Could I take Friday off, please?), tu opinión con In my opinion y un Thank you.",
+   "opener_en": "Good morning. Today I am going to talk about the rules at my workplace."
+  },
+  {
+   "task_es": "Presentar una propuesta de mejora para tu lugar de trabajo o de estudio, con una solicitud cortés y tu opinión, por ejemplo cambiar el cuaderno de la portería por un sistema de registro.",
+   "plan_es": "Paso 1: Explica el problema actual con presente simple y un conector de consecuencia (Now the guards write everything in a notebook, so the process is slow).\n\nPaso 2: Presenta la propuesta con we could o I think we should y justifícala con because (We could use a QR code system because it is faster and safer).\n\nPaso 3: Haz la solicitud con could o would (Could you give us two weeks to develop it? Would you approve a test?) y cierra con In my opinion y Thank you.",
+   "opener_en": "Today I would like to present a proposal to improve our access control."
+  },
+  {
+   "task_es": "Presentar un proceso para realizar una actividad de tu quehacer laboral, por ejemplo cómo crear una tabla en una base de datos o cómo registrar a un visitante en el sistema.",
+   "plan_es": "Paso 1: Di el nombre del proceso y para qué sirve en una sola oración.\n\nPaso 2: Explica de 5 a 7 pasos cortos con firstly, secondly, next, after that, then y finally, usando imperativos o have to, must y should (Firstly, open the database manager. Then, you have to write the name of the table).\n\nPaso 3: Cierra con una advertencia o un consejo usando might, should o must (Check the data types carefully, because a mistake might cause errors later).",
+   "opener_en": "Today I am going to explain how to create a table in a database."
+  },
+  {
+   "task_es": "Hablar de un invento que te parece interesante y por qué, y responder las preguntas del instructor sobre tus experiencias con él.",
+   "plan_es": "Paso 1: Presenta el invento y cuenta su historia en pasado simple y past continuous (Masahiro Hara invented it in 1994. At that time, he was working for Denso).\n\nPaso 2: Explica su impacto hasta hoy con present perfect (Since then, QR codes have changed our daily lives) y da tu opinión con because.\n\nPaso 3: Si el instructor pregunta Have you ever...? o How long have you...?, responde corto con Yes, I have o No, I haven't, agrega un detalle, y si dices cuándo pasó exactamente cambia a pasado simple (Yes, I have. I used one last week to pay).",
+   "opener_en": "An invention that I find very interesting is the QR code."
+  }
+ ]
+}

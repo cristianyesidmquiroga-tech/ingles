@@ -1,0 +1,184 @@
+{
+ "key": "used_to",
+ "title_es": "Used to y didn't use to: hábitos del pasado que ya no ocurren",
+ "explanation_es": "Used to sirve para hablar de hábitos o situaciones del pasado que ya no ocurren. La idea clave es el contraste: antes era así, ahora no. En español equivale a \"solía\" o, más natural en Colombia, a \"antes yo...\". Por ejemplo, \"I used to play soccer every Sunday\" es \"antes yo jugaba fútbol todos los domingos\".\n\nSe forma así. Afirmativa: sujeto + used to + verbo base: \"She used to live in Bogotá\". Negativa: sujeto + didn't use to + verbo base: \"I didn't use to like databases\". Pregunta: Did + sujeto + use to + verbo base: \"Did you use to study at night?\". Respuesta corta: \"Yes, I did\" o \"No, I didn't\". Ojo: en la negativa y en la pregunta \"use\" va sin d, porque después de did el verbo va en forma base, igual que didn't go (no didn't went).\n\nSe usa para hábitos repetidos del pasado (I used to walk to school) y para estados largos (I used to be shy). No se usa para algo que pasó una sola vez ni para decir cuánto tiempo duró; ahí va el pasado simple: \"I visited my grandmother last week\", \"I lived in Cali for five years\".\n\nLo que más confunde a los hispanohablantes es el verbo soler. En español existe en presente (suelo estudiar) y en pasado (solía estudiar), pero used to solo existe en pasado. Por eso no digas \"I use to study\" para el presente; eso se dice \"I usually study\". Además, el imperfecto (jugaba, vivía) ya indica hábito y muchos lo pasan al inglés con el pasado simple. No está mal, pero used to deja claro que ya no ocurre.\n\nSeñales en el examen escrito: \"when I was a child\", \"years ago\", \"in the past\", \"but now\", \"not anymore\". Si aparece una de esas con un hábito que cambió, casi siempre va \"used to\" o \"didn't use to\".",
+ "contrast": [
+  {
+   "en": "I used to play soccer every Sunday.",
+   "es": "Antes yo jugaba fútbol todos los domingos.",
+   "note_es": "Hábito repetido del pasado que ya no ocurre. En español basta el imperfecto (jugaba); en inglés used to deja claro que ya no pasa, algo que el pasado simple no siempre muestra."
+  },
+  {
+   "en": "I didn't use to like programming.",
+   "es": "Antes no me gustaba programar.",
+   "note_es": "Negativa con didn't use to. Fíjate que use va sin d: después de didn't el verbo va en forma base."
+  },
+  {
+   "en": "Did you use to live in Bucaramanga?",
+   "es": "¿Antes vivías en Bucaramanga?",
+   "note_es": "Pregunta con Did + sujeto + use to, también sin d. Sirve para estados (vivir, ser, tener), no solo para acciones."
+  },
+  {
+   "en": "My team used to save the records in Excel, but now we use a database.",
+   "es": "Mi equipo antes guardaba los registros en Excel, pero ahora usamos una base de datos.",
+   "note_es": "Contraste típico antes y ahora con but now. Esa es la señal más clara de used to en el examen escrito."
+  },
+  {
+   "en": "I visited the company last Monday.",
+   "es": "Visité la empresa el lunes pasado.",
+   "note_es": "Pasó una sola vez y tiene fecha concreta: aquí no va used to, va el pasado simple (visited)."
+  },
+  {
+   "en": "We used to have only one English instructor.",
+   "es": "Antes teníamos un solo instructor de inglés.",
+   "note_es": "Situación que duró un tiempo, no una acción. Used to funciona con verbos de estado como have, be, live, like y want."
+  },
+  {
+   "en": "I usually study at night.",
+   "es": "Normalmente estudio por la noche.",
+   "note_es": "Esto es presente, como \"suelo estudiar\". Used to no tiene presente; para un hábito actual se usa usually o el presente simple."
+  }
+ ],
+ "common_errors": [
+  {
+   "wrong": "I didn't used to like English.",
+   "right": "I didn't use to like English.",
+   "why_es": "Después de didn't el verbo va en forma base: use, sin d, igual que didn't go o didn't like. Aunque didn't used to aparece en textos informales, la forma que se espera en el examen es didn't use to."
+  },
+  {
+   "wrong": "Did you used to study at SENA?",
+   "right": "Did you use to study at SENA?",
+   "why_es": "Misma regla: en preguntas el pasado lo lleva Did, así que use queda en forma base, sin d."
+  },
+  {
+   "wrong": "I use to work on a farm. (hablando del pasado)",
+   "right": "I used to work on a farm.",
+   "why_es": "En afirmativa sí lleva la d. Muchos la omiten porque al hablar used to y use to suenan igual (/ˈjuːstə/). Al escribir, revisa: afirmativa con d, negativa y pregunta sin d."
+  },
+  {
+   "wrong": "I used to went to school by bus.",
+   "right": "I used to go to school by bus.",
+   "why_es": "Después de used to el verbo va en forma base, no en pasado. Used to ya marca el pasado; no repitas el tiempo en el segundo verbo."
+  },
+  {
+   "wrong": "I used to visit my grandmother last week.",
+   "right": "I visited my grandmother last week.",
+   "why_es": "Last week indica una sola vez, no un hábito. Con una acción única y fecha concreta se usa el pasado simple. Used to necesita repetición o una situación que duró: every week, when I was a child."
+  },
+  {
+   "wrong": "I use to study every night. (queriendo decir 'suelo estudiar')",
+   "right": "I usually study every night.",
+   "why_es": "En español soler existe en presente (suelo), y por eso muchos dicen use to para el presente. En inglés used to solo existe en pasado y significa que ya no pasa. Para un hábito actual se usa usually o el presente simple."
+  },
+  {
+   "wrong": "I am used to play soccer. (queriendo decir 'solía jugar')",
+   "right": "I used to play soccer.",
+   "why_es": "Be used to + verbo con -ing significa estar acostumbrado a (I am used to playing soccer: estoy acostumbrado a jugar fútbol) y no dice que el hábito terminó. Para un hábito pasado que ya no ocurre no se usa am, is, are ni was, ni el verbo con -ing."
+  }
+ ],
+ "oral_questions": [
+  {
+   "question": "What did you use to do when you were a child?",
+   "model_answer": "I used to play soccer with my cousins every afternoon. I also used to watch cartoons after school.",
+   "focus": "Afirmativa: used to + verbo base para hábitos de la niñez."
+  },
+  {
+   "question": "Did you use to like school?",
+   "model_answer": "Yes, I did. I used to like math, but I didn't use to like English. Now I like it more.",
+   "focus": "Respuesta corta Yes, I did, más afirmativa y negativa con didn't use to."
+  },
+  {
+   "question": "What did you use to think about programming before ADSO?",
+   "model_answer": "I used to think programming was only for very smart people. Now I know it is about practice.",
+   "focus": "Used to + think para creencias del pasado; contraste antes y ahora con now."
+  },
+  {
+   "question": "Where did you use to live before you started at SENA?",
+   "model_answer": "I used to live in a small town with my family. Now I live closer to the SENA center.",
+   "focus": "Used to con verbos de estado (live); pregunta con Where."
+  },
+  {
+   "question": "How did you use to save information before you learned about databases?",
+   "model_answer": "I used to save everything in Excel files. I didn't use to organize my data in tables.",
+   "focus": "Pregunta con How; afirmativa y negativa en contexto de bases de datos."
+  },
+  {
+   "question": "Did you use to work before you started studying software development?",
+   "model_answer": "No, I didn't. I used to help my family at home. Now I study and work on a project for a real client.",
+   "focus": "Respuesta corta negativa No, I didn't, seguida de una afirmativa con used to."
+  },
+  {
+   "question": "How did your team use to organize its tasks at the start of your project?",
+   "model_answer": "We used to write our tasks on paper. Now we use an online board, and everyone can see it.",
+   "focus": "Sujeto plural (we, my team); contraste antes y ahora dentro del proyecto."
+  },
+  {
+   "question": "Who did you use to study with in your first months at SENA?",
+   "model_answer": "I used to study with two classmates from my group. We used to meet in the library every Friday.",
+   "focus": "Pregunta con Who; used to + meet para un hábito repetido con every Friday."
+  },
+  {
+   "question": "Why didn't you use to like programming?",
+   "model_answer": "I didn't use to like it because my code never worked. I used to feel frustrated all the time.",
+   "focus": "Pregunta negativa con Why didn't; didn't use to + verbo base y justificación con because."
+  },
+  {
+   "question": "How often did you use to practice English before this course?",
+   "model_answer": "I didn't use to practice very often, maybe once a month. Now I practice every day in class.",
+   "focus": "Pregunta de frecuencia con How often; negativa y contraste con now."
+  }
+ ],
+ "roleplay": {
+  "situation_es": "Estás en una reunión con el administrador del centro de gestión agroempresarial (el cliente) para levantar requisitos del software de control de acceso. Le preguntas cómo manejaban antes el ingreso del personal, los elementos de bodega y los equipos externos, y le cuentas cómo trabajabas tú antes de aprender bases de datos.",
+  "lines": [
+   {
+    "speaker": "Client",
+    "line": "Good morning. Thanks for coming to the center today."
+   },
+   {
+    "speaker": "You",
+    "line": "Good morning. I have some questions about the old process. How did you use to control staff access?"
+   },
+   {
+    "speaker": "Client",
+    "line": "We used to write every name in a notebook at the front desk. It was slow, and sometimes we lost pages."
+   },
+   {
+    "speaker": "You",
+    "line": "I see. And did you use to register the warehouse items too?"
+   },
+   {
+    "speaker": "Client",
+    "line": "No, we didn't. We used to trust our memory, so some tools disappeared."
+   },
+   {
+    "speaker": "You",
+    "line": "That is a common problem. What about external equipment? How did you use to register it?"
+   },
+   {
+    "speaker": "Client",
+    "line": "The security guard used to ask for the person's ID, but he didn't use to write down the serial number of the equipment."
+   },
+   {
+    "speaker": "You",
+    "line": "Understood. Did you use to have a computer at the entrance?"
+   },
+   {
+    "speaker": "Client",
+    "line": "We used to have an old laptop, but nobody used it. Now we want a real system."
+   },
+   {
+    "speaker": "You",
+    "line": "OK. Before I studied software development, I used to save everything in Excel too. Now I can design a database for your center."
+   },
+   {
+    "speaker": "Client",
+    "line": "That sounds good. When can you show us a first version?"
+   },
+   {
+    "speaker": "You",
+    "line": "Next week. I'll bring a demo of the login page and the entry records."
+   }
+  ]
+ }
+}

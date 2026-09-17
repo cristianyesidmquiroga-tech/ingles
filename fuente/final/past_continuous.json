@@ -1,0 +1,184 @@
+{
+ "key": "past_continuous",
+ "title_es": "Pasado continuo, when y while",
+ "explanation_es": "El pasado continuo (past continuous) describe una acción que estaba en progreso en un momento específico del pasado. No importa si terminó o no. Equivale a estaba + gerundio en español: I was coding, yo estaba programando.\n\nSe forma con was o were más el verbo con -ing. Was va con I, he, she, it; were va con you, we, they. Afirmativa: She was testing the login form. Negativa: agregas not (wasn't, weren't): They weren't using the database. Pregunta: pones was o were antes del sujeto: Were you working on the project? What were you doing at nine?\n\nSe usa en tres casos. Uno: acción en progreso a una hora exacta del pasado (At 7:00 I was having breakfast). Dos: una acción larga interrumpida por una corta; la larga va en continuo y la corta en pasado simple (I was writing code when the instructor arrived). Tres: dos acciones largas al mismo tiempo, ambas en continuo y unidas por while (While I was designing the database, my partner was writing the documentation).\n\nLa clave está en when y while. When suele introducir la acción corta en pasado simple; while introduce la acción larga con -ing. Si la oración empieza con when o while, pones coma después de esa parte. Lo que más confunde a los hispanohablantes: el imperfecto español (trabajaba) sirve para acciones en progreso y también para hábitos. En inglés, I was working solo es una acción en desarrollo; para hábitos usas I worked o I used to work. Los verbos de estado como know, want, like y have (con el sentido de tener o poseer) normalmente no van en continuo: I knew the answer, nunca I was knowing.\n\nSeñales para reconocerlo: while, when con una acción corta (arrived, called, rang), at + hora (at 8 o'clock), at that moment, yesterday at + hora. Si ves while o una hora exacta, piensa en was/were + -ing.",
+ "contrast": [
+  {
+   "en": "At eight o'clock yesterday I was writing the login code.",
+   "es": "Ayer a las ocho yo estaba escribiendo el código del inicio de sesión.",
+   "note_es": "Hora exacta en el pasado: la acción estaba en progreso y no importa cuándo terminó. Fíjate en at eight o'clock, es la señal para usar was + -ing."
+  },
+  {
+   "en": "I was testing the app when the instructor arrived.",
+   "es": "Yo estaba probando la aplicación cuando llegó el instructor.",
+   "note_es": "La acción larga (testing) va en continuo; la acción corta que interrumpe (arrived) va en pasado simple después de when."
+  },
+  {
+   "en": "While we were working on the database, the power went out.",
+   "es": "Mientras estábamos trabajando en la base de datos, se fue la luz.",
+   "note_es": "While acompaña la acción larga con -ing. La acción corta (went out) queda en pasado simple. Puedes poner la parte de while al inicio (con coma) o al final de la oración (sin coma)."
+  },
+  {
+   "en": "While I was coding, my teammate was writing the documentation.",
+   "es": "Mientras yo programaba, mi compañero escribía la documentación.",
+   "note_es": "Dos acciones largas al mismo tiempo: las dos en pasado continuo. En español basta con el imperfecto (programaba, escribía), pero en inglés lo normal es usar was + -ing en las dos partes."
+  },
+  {
+   "en": "She wasn't listening when the boss called her name.",
+   "es": "Ella no estaba escuchando cuando el jefe la llamó por su nombre.",
+   "note_es": "Negativa: wasn't + -ing. Que el jefe la llame es un evento corto, por eso va en pasado simple (called)."
+  },
+  {
+   "en": "What were you doing at seven this morning?",
+   "es": "¿Qué estabas haciendo hoy a las siete de la mañana?",
+   "note_es": "Pregunta: palabra interrogativa + were + sujeto + verbo con -ing. Aquí no se usa did, porque el auxiliar ya es were."
+  },
+  {
+   "en": "Last year I worked in a warehouse for six months. Yesterday at 3 p.m. I was working on a report.",
+   "es": "El año pasado trabajé seis meses en una bodega. Ayer a las 3 p. m. estaba trabajando en un informe.",
+   "note_es": "Contraste clave: un período cerrado o una acción completa va en pasado simple; una acción en progreso en un momento puntual va en continuo."
+  }
+ ],
+ "common_errors": [
+  {
+   "wrong": "I was work on the project when he called.",
+   "right": "I was working on the project when he called.",
+   "why_es": "Después de was o were el verbo siempre lleva -ing. El error aparece porque se piensa que was ya marca el pasado y el verbo puede quedar en forma base, pero sin -ing la oración no está completa."
+  },
+  {
+   "wrong": "They was studying English at eight o'clock last night.",
+   "right": "They were studying English at eight o'clock last night.",
+   "why_es": "Was solo va con I, he, she, it. Con you, we, they siempre es were. El error viene de tratar was como si fuera la única forma del pasado de be."
+  },
+  {
+   "wrong": "What did you doing at nine?",
+   "right": "What were you doing at nine?",
+   "why_es": "Did es el auxiliar del pasado simple. En pasado continuo el auxiliar ya es was o were, así que no se mezclan los dos. Si hay -ing, no hay did."
+  },
+  {
+   "wrong": "When I was young, I was playing football every weekend.",
+   "right": "When I was young, I played football every weekend. / When I was young, I used to play football every weekend.",
+   "why_es": "Un hábito del pasado va en pasado simple o con used to. El pasado continuo no se usa para rutinas, aunque en español los dos casos se digan con imperfecto (jugaba)."
+  },
+  {
+   "wrong": "I was knowing the answer when the instructor asked.",
+   "right": "I knew the answer when the instructor asked.",
+   "why_es": "Los verbos de estado (know, want, like, need, believe, have con el sentido de poseer) no se usan en continuo. En español decimos sabía, en imperfecto, y eso lleva a pensar en was knowing; en inglés se usa el pasado simple: I knew."
+  },
+  {
+   "wrong": "I was writing the report while the phone rang.",
+   "right": "I was writing the report when the phone rang.",
+   "why_es": "While acompaña la acción larga, la que dura. When acompaña la acción corta que interrumpe. Que suene el teléfono es un instante, así que va con when y en pasado simple."
+  },
+  {
+   "wrong": "Yesterday I was going to SENA and I was talking with my instructor and I was coming back home.",
+   "right": "Yesterday I went to SENA, talked to my instructor and then came back home.",
+   "why_es": "Cuando cuentas eventos que pasaron uno detrás de otro y ya terminaron, usas pasado simple. El continuo solo sirve para describir el fondo de la escena, no para la lista de cosas que hiciste."
+  }
+ ],
+ "oral_questions": [
+  {
+   "question": "What were you doing at seven o'clock this morning?",
+   "model_answer": "At seven o'clock I was having breakfast with my family, and my sister was getting ready for work.",
+   "focus": "was/were + -ing con una hora exacta del pasado"
+  },
+  {
+   "question": "What were you doing when the instructor arrived?",
+   "model_answer": "I was reviewing the database tables with my team. When the instructor arrived, we stopped and showed him our progress.",
+   "focus": "Acción larga en continuo interrumpida por when + pasado simple"
+  },
+  {
+   "question": "What was happening while you were working on the access-control project?",
+   "model_answer": "While I was working on the login module, my teammates were designing the forms for the warehouse items.",
+   "focus": "Dos acciones simultáneas con while, ambas en pasado continuo"
+  },
+  {
+   "question": "Where were you working last Friday afternoon?",
+   "model_answer": "I was working at home. I was writing the code for the user roles.",
+   "focus": "Where + were you + -ing; lugar y acción en progreso"
+  },
+  {
+   "question": "Were you sleeping when I sent you the message last night?",
+   "model_answer": "No, I wasn't. I was still coding when your message arrived. I was fixing an error in the equipment registration form.",
+   "focus": "Pregunta de sí o no, respuesta corta con wasn't y forma negativa"
+  },
+  {
+   "question": "Who was helping you when the system stopped working?",
+   "model_answer": "My partner was helping me. He was checking the connection to the database while I was reading the error messages.",
+   "focus": "Who como sujeto + was + -ing; while para acciones paralelas"
+  },
+  {
+   "question": "Why weren't you paying attention in class yesterday?",
+   "model_answer": "I'm sorry. I wasn't feeling well, so I wasn't paying attention.",
+   "focus": "Why + negativa con weren't/wasn't + -ing"
+  },
+  {
+   "question": "How were you feeling while you were presenting your project?",
+   "model_answer": "I was feeling nervous at the beginning. Then, while I was explaining the database, I started to feel more confident.",
+   "focus": "How + were you feeling; contraste entre continuo (durante) y simple (cambio)"
+  },
+  {
+   "question": "What happened while you were testing the software?",
+   "model_answer": "While I was testing the software, the program crashed. I was registering a new employee when the error appeared.",
+   "focus": "What happened en pasado simple + while + continuo; when + simple"
+  },
+  {
+   "question": "Tell me about a time when something interrupted your work.",
+   "model_answer": "Last week I was writing the SQL queries for the project when the internet stopped working. While I was waiting, I read my notes.",
+   "focus": "Narración corta combinando pasado continuo y pasado simple con when y while"
+  }
+ ],
+ "roleplay": {
+  "situation_es": "Eres el desarrollador del sistema de control de acceso en el centro de gestión agroempresarial. Ayer el sistema dejó de registrar la entrada del personal durante un rato. Hoy tu jefe te pregunta qué estaba pasando en ese momento. Practica describir la escena con pasado continuo y los eventos puntuales con pasado simple.",
+  "lines": [
+   {
+    "speaker": "Boss",
+    "line": "Good morning. Yesterday the system stopped registering staff entries at nine o'clock. What were you doing at that moment?"
+   },
+   {
+    "speaker": "You",
+    "line": "Good morning. At nine o'clock I was updating the employee database. I was adding the new warehouse staff."
+   },
+   {
+    "speaker": "Boss",
+    "line": "Were you working alone?"
+   },
+   {
+    "speaker": "You",
+    "line": "No, I wasn't. My partner was helping me. He was checking the equipment records while I was uploading the data."
+   },
+   {
+    "speaker": "Boss",
+    "line": "And what happened exactly?"
+   },
+   {
+    "speaker": "You",
+    "line": "While we were uploading the data, the server lost the connection. When the connection came back, the system still wasn't saving the entries."
+   },
+   {
+    "speaker": "Boss",
+    "line": "Was anyone from the security team using the system at that time?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes. The guard was registering a visitor when the error appeared. He called me immediately."
+   },
+   {
+    "speaker": "Boss",
+    "line": "What were you doing when he called?"
+   },
+   {
+    "speaker": "You",
+    "line": "I was restarting the server. After that, we found the problem and fixed it in twenty minutes."
+   },
+   {
+    "speaker": "Boss",
+    "line": "Good. Next time, please call me when the problem starts, not after you fix it."
+   },
+   {
+    "speaker": "You",
+    "line": "Of course. I'm sorry I didn't call you while we were fixing it."
+   }
+  ]
+ }
+}

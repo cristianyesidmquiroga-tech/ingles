@@ -1,0 +1,184 @@
+{
+ "key": "modals",
+ "title_es": "Verbos modales",
+ "explanation_es": "Los verbos modales son auxiliares que acompañan a otro verbo para expresar habilidad, permiso, posibilidad, obligación, prohibición, consejo o cortesía. Los principales son can, could, must, should, may, might y would. Have to no es un modal puro, pero se estudia con ellos porque también expresa obligación.\n\nLa forma es siempre igual: modal más verbo en forma base, sin to y sin -s en tercera persona. Se dice She can code, nunca She cans code ni She can to code. La excepción es have to, que sí lleva to y sí cambia: he has to, I had to. Para negar se agrega not: can't (cannot, en una sola palabra), couldn't, mustn't, shouldn't. Para preguntar se invierten modal y sujeto: Can you work on weekends? Con have to se usa do: Do you have to wear a uniform?\n\nCan es habilidad o permiso en presente; could es habilidad en pasado o petición cortés; must es obligación fuerte, típica de normas escritas o de lo que el hablante considera necesario; have to es obligación que viene de afuera, como una regla; should es consejo; may y might son posibilidad, y may también es permiso formal; would es cortesía o situación hipotética. Must no tiene pasado: para obligaciones pasadas se usa had to.\n\nLa confusión clave para hispanohablantes está en las negaciones. No tengo que se dice don't have to y significa que no es necesario. No debes, en el sentido de está prohibido, se dice mustn't. Son ideas opuestas: You don't have to come on Saturday da libertad; You mustn't share the password prohíbe.\n\nEn el examen escrito, busca estas señales: rule, law, necessary llevan a must o have to; advice, good idea a should; not necessary a don't have to; forbidden, prohibited a mustn't; maybe, perhaps a may o might; polite request a could o would; ability, able to a can o could.",
+ "contrast": [
+  {
+   "en": "I can write code in Python.",
+   "es": "Puedo escribir código en Python.",
+   "note_es": "Can va seguido del verbo en forma base. En español el segundo verbo va en infinitivo (escribir), pero en inglés no se agrega to ni ninguna terminación."
+  },
+  {
+   "en": "You must back up the database before you deploy the app.",
+   "es": "Tienes que hacer una copia de seguridad de la base de datos antes de desplegar la aplicación.",
+   "note_es": "Must expresa obligación fuerte y nunca cambia: he must, she must, sin -s y sin to. En español se dice tienes que o debes."
+  },
+  {
+   "en": "You mustn't share your password with anyone.",
+   "es": "No debes compartir tu contraseña con nadie.",
+   "note_es": "Mustn't es prohibición: está prohibido hacerlo. No significa no tienes que; eso sería don't have to."
+  },
+  {
+   "en": "I don't have to work on Sundays.",
+   "es": "No tengo que trabajar los domingos.",
+   "note_es": "Don't have to significa que no es necesario: puedo hacerlo o no. Es lo opuesto a mustn't, aunque en español ambas frases empiezan con no."
+  },
+  {
+   "en": "You should test the code before you send it.",
+   "es": "Deberías probar el código antes de enviarlo.",
+   "note_es": "Should es consejo o recomendación y equivale a deberías. Suena más suave que must."
+  },
+  {
+   "en": "Could you send me the report, please?",
+   "es": "¿Me podría enviar el informe, por favor?",
+   "note_es": "Could sirve para pedir algo con cortesía, no solo para hablar del pasado. Lo natural es responder Sure o Of course; no se responde Yes, I could."
+  },
+  {
+   "en": "The server might be down.",
+   "es": "Puede que el servidor esté caído.",
+   "note_es": "Might y may expresan posibilidad, no certeza. En español decimos puede que o de pronto; en inglés basta con poner might antes del verbo en forma base: might be, no might is."
+  }
+ ],
+ "common_errors": [
+  {
+   "wrong": "I can to use SQL.",
+   "right": "I can use SQL.",
+   "why_es": "Los modales no llevan to. El error viene de traducir puedo usar pensando en el infinitivo español. Solo have to lleva to."
+  },
+  {
+   "wrong": "She can speaks English.",
+   "right": "She can speak English.",
+   "why_es": "Después de un modal el verbo va en forma base. Ni el modal ni el verbo que lo sigue llevan -s en tercera persona."
+  },
+  {
+   "wrong": "You mustn't come on Saturday. It's optional.",
+   "right": "You don't have to come on Saturday. It's optional.",
+   "why_es": "Mustn't es prohibición. Si la idea es que no es necesario, se usa don't have to. En español ambas ideas se dicen con no, por eso se confunden."
+  },
+  {
+   "wrong": "Do you can work on weekends?",
+   "right": "Can you work on weekends?",
+   "why_es": "La pregunta con modal se forma invirtiendo el modal y el sujeto, sin do. Solo have to usa do: Do you have to work on weekends?"
+  },
+  {
+   "wrong": "I will can finish the project next week.",
+   "right": "I will be able to finish the project next week.",
+   "why_es": "En español decimos podré, pero en inglés no se pueden juntar dos modales como will y can. Para el futuro de can se usa will be able to."
+  },
+  {
+   "wrong": "I have to go to work yesterday.",
+   "right": "I had to go to work yesterday.",
+   "why_es": "Have to sí cambia de tiempo: en pasado es had to. Must no tiene forma de pasado, así que para obligaciones pasadas se usa had to."
+  },
+  {
+   "wrong": "I don't must work late.",
+   "right": "I don't have to work late.",
+   "why_es": "Must no se niega con don't. Su negación es mustn't, que significa prohibido. Si la idea es que no es necesario, la forma correcta es don't have to."
+  }
+ ],
+ "oral_questions": [
+  {
+   "question": "What do you have to do before you deploy an application?",
+   "model_answer": "I have to test the code first. I must also back up the database.",
+   "focus": "have to y must para obligación, seguidos de verbo en forma base"
+  },
+  {
+   "question": "What should a new employee do on the first day?",
+   "model_answer": "I think a new employee should arrive early. He or she should ask questions when something isn't clear.",
+   "focus": "should para consejo, sin -s en tercera persona"
+  },
+  {
+   "question": "Can you work on weekends?",
+   "model_answer": "Yes, I can work on Saturdays. But I can't work on Sundays because I study at SENA.",
+   "focus": "can y can't para disponibilidad, respuesta corta más explicación"
+  },
+  {
+   "question": "What mustn't you do with company data?",
+   "model_answer": "I mustn't share company data with people outside the company. I mustn't copy it to my personal USB drive either.",
+   "focus": "mustn't para prohibición"
+  },
+  {
+   "question": "Do you have to wear a uniform at SENA?",
+   "model_answer": "No, I don't have to wear a uniform. But I have to bring my ID card to enter.",
+   "focus": "have to y don't have to para obligación externa y ausencia de necesidad, pregunta con do"
+  },
+  {
+   "question": "What couldn't you do last year that you can do now?",
+   "model_answer": "Last year I couldn't create a database. Now I can design tables and write SQL queries.",
+   "focus": "couldn't para habilidad pasada frente a can para habilidad presente"
+  },
+  {
+   "question": "How would you ask your boss for a day off?",
+   "model_answer": "I would say: Could I have Friday off, please? I have an exam at SENA.",
+   "focus": "would para situación hipotética y could para petición cortés"
+  },
+  {
+   "question": "Why might a user have problems with your access-control system?",
+   "model_answer": "The user might have a damaged ID card. Also, the system may be offline because of a network problem.",
+   "focus": "might y may para posibilidad"
+  },
+  {
+   "question": "What do the workers have to do in your project when equipment leaves the building?",
+   "model_answer": "In my project, they have to register the equipment in the system. They also have to write the name of the person who takes it.",
+   "focus": "have to para describir las reglas de un proceso laboral"
+  },
+  {
+   "question": "Should companies let employees use their phones at work?",
+   "model_answer": "I think they should, but with limits. Employees shouldn't use their phones in important meetings.",
+   "focus": "should y shouldn't para dar una opinión"
+  }
+ ],
+ "roleplay": {
+  "situation_es": "Es tu primer día como desarrollador junior en una empresa de software. Tu jefa te explica las reglas del equipo y tú haces preguntas con cortesía sobre horarios, equipos y acceso a la base de datos. Practica have to, don't have to, must, mustn't, can, can't, could, should, would y might.",
+  "lines": [
+   {
+    "speaker": "Boss",
+    "line": "Welcome to the team. First, you have to sign in with your ID card every morning."
+   },
+   {
+    "speaker": "You",
+    "line": "Okay. Do I have to arrive at a specific time?"
+   },
+   {
+    "speaker": "Boss",
+    "line": "You should arrive before nine, but you don't have to stay after six."
+   },
+   {
+    "speaker": "You",
+    "line": "Good. Can I use my own laptop for work?"
+   },
+   {
+    "speaker": "Boss",
+    "line": "No, sorry. You must use the company computer, and you mustn't copy company data to personal devices."
+   },
+   {
+    "speaker": "You",
+    "line": "I understand. Could you give me access to the database, please?"
+   },
+   {
+    "speaker": "Boss",
+    "line": "Sure, but this week you can only read it. You can't change anything yet."
+   },
+   {
+    "speaker": "You",
+    "line": "That's fine. Should I ask someone before I upload my code?"
+   },
+   {
+    "speaker": "Boss",
+    "line": "Yes. You must ask a senior developer to review your code first."
+   },
+   {
+    "speaker": "You",
+    "line": "Perfect. One more question: would it be possible to work from home on Fridays?"
+   },
+   {
+    "speaker": "Boss",
+    "line": "It might be possible after your first month. We can talk about it later."
+   },
+   {
+    "speaker": "You",
+    "line": "Thank you. I think I should start reading the project documentation now."
+   }
+  ]
+ }
+}

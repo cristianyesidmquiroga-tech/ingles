@@ -1,0 +1,184 @@
+{
+ "key": "present_perfect",
+ "title_es": "Present perfect (presente perfecto)",
+ "explanation_es": "El present perfect conecta el pasado con el presente. Se forma con have o has más el participio pasado del verbo. Con I, you, we y they se usa have; con he, she e it se usa has. En los verbos regulares el participio termina en -ed (worked, studied); en los irregulares es la tercera columna y hay que aprenderla (done, been, gone, seen, written).\n\nAfirmativa: I have finished the module. Negativa: I haven't finished the module. Pregunta: Have you finished the module? Respuesta corta: Yes, I have / No, I haven't. Al hablar casi siempre se contrae: I've, you've, he's.\n\nSe usa en tres casos. Uno: experiencias sin decir cuándo (I have worked with databases). Dos: algo que empezó en el pasado y todavía sigue (I have studied at SENA since 2024). Tres: acciones recientes con resultado ahora (I have just sent the report).\n\nSe parece al español \"he hecho\", pero hay una diferencia clave: en inglés el present perfect nunca va con un tiempo terminado. Si la frase tiene yesterday, last week, ago o una fecha, va en past simple: I finished the project yesterday. En cambio, si el periodo no ha terminado (today, this week, this year) o no importa cuándo pasó, normalmente va en present perfect, aunque en Colombia digamos \"esta semana aprendí mucho\" o \"¿alguna vez usaste...?\" con pretérito.\n\nPalabras señal: ever y never (experiencias); just, already y yet (acciones recientes). Just y already van entre have y el participio; yet va al final en negativas y preguntas. Since va con un punto de inicio (since 2020) y for con una duración (for five years). \"Hace cinco años que trabajo aquí\" es I have worked here for five years, nunca \"since five years\". Cuidado con been y gone: she has been to Bogotá significa que estuvo allá y ya volvió; she has gone to Bogotá, que se fue y todavía está allá.",
+ "contrast": [
+  {
+   "en": "I have worked on three projects at SENA.",
+   "es": "He trabajado en tres proyectos en el SENA.",
+   "note_es": "Experiencia sin fecha: importa que ya pasó, no cuándo. Por eso va en present perfect."
+  },
+  {
+   "en": "I worked on a project last year.",
+   "es": "Trabajé en un proyecto el año pasado.",
+   "note_es": "Last year es un tiempo terminado, así que va en past simple. Nunca digas 'I have worked last year'."
+  },
+  {
+   "en": "I have studied programming for two years.",
+   "es": "Llevo dos años estudiando programación.",
+   "note_es": "En español decimos 'llevo dos años' o 'hace dos años que estudio'; en inglés es present perfect con for más la duración."
+  },
+  {
+   "en": "I have been in the ADSO program since 2024.",
+   "es": "Estoy en el programa ADSO desde 2024.",
+   "note_es": "Since marca el punto de inicio. En español va en presente ('estoy'), en inglés en present perfect: decir 'I am in the program since 2024' es un error."
+  },
+  {
+   "en": "Have you ever used PostgreSQL?",
+   "es": "¿Alguna vez has usado PostgreSQL?",
+   "note_es": "En Colombia también decimos '¿alguna vez usaste...?' con pretérito, pero en inglés una experiencia sin fecha va en present perfect. Ever va entre el sujeto y el participio. Para responder que no: No, I have never used it."
+  },
+  {
+   "en": "I haven't finished the database yet.",
+   "es": "Todavía no he terminado la base de datos.",
+   "note_es": "Yet va al final de la frase; en español 'todavía' puede ir al principio. Con este sentido, yet se usa en negativas y preguntas; en afirmativas se usa already."
+  },
+  {
+   "en": "My instructor has gone to Medellín.",
+   "es": "Mi instructor se fue para Medellín.",
+   "note_es": "Gone indica que se fue y todavía no ha vuelto. Si ya estuvo allá y regresó, se dice: My instructor has been to Medellín."
+  }
+ ],
+ "common_errors": [
+  {
+   "wrong": "I have finished the project yesterday.",
+   "right": "I finished the project yesterday.",
+   "why_es": "Yesterday es un tiempo terminado. Con yesterday, last week, ago o una fecha exacta se usa past simple, aunque el resultado se note ahora. El present perfect nunca va con un tiempo cerrado."
+  },
+  {
+   "wrong": "I have worked here since three years.",
+   "right": "I have worked here for three years.",
+   "why_es": "Since es para un punto de inicio (since 2023, since Monday) y for es para una duración (for three years). El error viene de traducir 'desde hace tres años' con since."
+  },
+  {
+   "wrong": "I have never saw that error.",
+   "right": "I have never seen that error.",
+   "why_es": "Después de have o has va el participio pasado, no el past simple. En los irregulares es la tercera columna: see, saw, seen; go, went, gone; do, did, done."
+  },
+  {
+   "wrong": "He have finished the code.",
+   "right": "He has finished the code.",
+   "why_es": "Con he, she e it el auxiliar es has. Es parecido al error de olvidar la -s de la tercera persona en presente simple."
+  },
+  {
+   "wrong": "I don't have finished the report.",
+   "right": "I haven't finished the report.",
+   "why_es": "La negación va en el mismo auxiliar: haven't o hasn't. Don't y doesn't son del presente simple, no del present perfect."
+  },
+  {
+   "wrong": "I haven't finished yet the report.",
+   "right": "I haven't finished the report yet.",
+   "why_es": "Yet va al final de la frase, después del complemento. El error viene de copiar el orden del español 'no he terminado todavía el informe'."
+  },
+  {
+   "wrong": "I study English for three years.",
+   "right": "I have studied English for three years.",
+   "why_es": "Para algo que empezó en el pasado y sigue ahora no se usa presente simple. 'Hace tres años que estudio inglés' o 'llevo tres años estudiando inglés' se dice con present perfect y for."
+  }
+ ],
+ "oral_questions": [
+  {
+   "question": "Have you ever worked for a company?",
+   "model_answer": "No, I haven't. I have never worked for a company, but I have done a project for the agribusiness center at SENA.",
+   "focus": "Have you ever + participio; respuesta corta y never"
+  },
+  {
+   "question": "How long have you studied English?",
+   "model_answer": "I have studied English for about two years. I started my course at SENA in 2024.",
+   "focus": "How long + present perfect con for; past simple para el momento de inicio"
+  },
+  {
+   "question": "What have you learned this year?",
+   "model_answer": "This year I have learned SQL and I have built a database for my project. I have also improved my English.",
+   "focus": "Tiempo no terminado (this year) con present perfect"
+  },
+  {
+   "question": "Have you finished the project yet?",
+   "model_answer": "Not yet. We have finished the login page and the database, but we haven't finished the reports module yet.",
+   "focus": "Yet al final en pregunta y negativa"
+  },
+  {
+   "question": "How many programming languages have you used?",
+   "model_answer": "I have used Python, JavaScript and PHP. I have just started learning Java.",
+   "focus": "How many + present perfect; just para acción reciente"
+  },
+  {
+   "question": "Which cities in Colombia have you been to?",
+   "model_answer": "I have been to Bogotá and Medellín. I haven't been to Cartagena yet, but I would like to go.",
+   "focus": "Been to para lugares visitados; haven't ... yet"
+  },
+  {
+   "question": "Who has helped you with your project?",
+   "model_answer": "My instructor has helped me a lot with the database design. A classmate has also helped me with the tests.",
+   "focus": "Has con tercera persona (my instructor, a classmate)"
+  },
+  {
+   "question": "Has your team presented the project yet?",
+   "model_answer": "No, we haven't presented it yet because we haven't finished the reports module. We have already finished the user registration form.",
+   "focus": "Negativa con haven't ... yet y already en afirmativa"
+  },
+  {
+   "question": "What has changed in your life since you started at SENA?",
+   "model_answer": "Since I started at SENA, I have learned how to program and I have made new friends. I have also become more organized.",
+   "focus": "Since + past simple en la frase de tiempo, present perfect en la principal"
+  },
+  {
+   "question": "Has your project ever failed a test?",
+   "model_answer": "Yes, it has. The login page has failed a few times, but we have already fixed the problem.",
+   "focus": "Has + it; respuesta corta Yes, it has; already"
+  }
+ ],
+ "roleplay": {
+  "situation_es": "Tu instructor del SENA pasa por tu mesa a revisar cómo va el proyecto de control de acceso para el centro agroempresarial. Te pregunta qué han hecho, qué falta y qué has aprendido. Fíjate en que respondes con present perfect cuando no hay fecha y cambias a past simple cuando das un momento exacto (last Friday, in June).",
+  "lines": [
+   {
+    "speaker": "Instructor",
+    "line": "Good morning. How is the access control project going? What have you done so far?"
+   },
+   {
+    "speaker": "You",
+    "line": "Good morning. We have finished the database and the login module. We have also created the staff registration form."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Great. Have you tested the login module yet?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes, we have. We tested it last Friday and found two bugs, but we have already fixed them."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Good. What about the warehouse module? Has your team started it?"
+   },
+   {
+    "speaker": "You",
+    "line": "We have started it, but we haven't finished it yet. We have only done the item list."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "How long have you worked on this project?"
+   },
+   {
+    "speaker": "You",
+    "line": "We have worked on it for three months. We started in June."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Have you ever used a web framework before?"
+   },
+   {
+    "speaker": "You",
+    "line": "No, I haven't. This is the first time I have used one, and I have learned a lot since we started."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Excellent. Where is your teammate today?"
+   },
+   {
+    "speaker": "You",
+    "line": "He has gone to the warehouse to take photos of the equipment. He hasn't come back yet."
+   }
+  ]
+ }
+}

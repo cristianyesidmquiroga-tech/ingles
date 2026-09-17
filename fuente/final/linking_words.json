@@ -1,0 +1,184 @@
+{
+ "key": "linking_words",
+ "title_es": "Conectores (linking words): unir ideas para explicar un proceso, dar razones y contrastar",
+ "explanation_es": "Los conectores (linking words) unen ideas para que no hables con frases sueltas. En el examen oral son la clave del criterio de secuencia lineal cohesionada: el instructor quiere oír first, then, after that y finally.\n\nHay cinco familias. Contraste: but, however, on the other hand. Comparación y ejemplos: like, similarly, in the same way para comparar, y such as para dar ejemplos. Tiempo y secuencia: first o firstly, secondly, then, next, after that, before, later, finally. Adición: and, also, as well as, not only... but also, moreover. Causa y efecto: because, because of y due to dan la causa; so, therefore, as a result y consequently dan el resultado.\n\nCómo se usan: el conector no cambia en afirmativa, negativa o pregunta; cambian la posición y la puntuación. And, but, so y because unen dos ideas en la misma oración: I use MySQL because it is free. However, therefore, moreover y as a result suelen abrir una oración nueva, con punto antes, mayúscula y coma después: I like Python. However, my project uses Java. Due to y because of van seguidos de un sustantivo, nunca de sujeto más verbo: due to the rain.\n\nLo que más confunde: en español es común poner sin embargo entre comas en medio de la frase, pero en inglés however no une dos oraciones con una simple coma como but. So equivale a así que o a entonces cuando indica consecuencia; el entonces de tiempo (luego) es then. Y after no va solo al empezar un paso como después: se dice after that o afterwards.\n\nSeñales para la parte escrita: antes de un sustantivo, due to o because of; antes de sujeto y verbo que dan una razón, because; después de punto y seguido de coma, However, Therefore, Moreover o As a result; ideas opuestas, but u on the other hand; un resultado, so; un paso de un proceso, first, then, next o finally.",
+ "contrast": [
+  {
+   "en": "I wanted to use PHP, but my team chose Java.",
+   "es": "Quería usar PHP, pero mi equipo eligió Java.",
+   "note_es": "But une las dos ideas en una sola oración, con coma antes. No lleva punto ni mayúscula. Es el contraste más simple y seguro para hablar."
+  },
+  {
+   "en": "Working from home is comfortable. However, it is easy to get distracted.",
+   "es": "Trabajar desde casa es cómodo. Sin embargo, es fácil distraerse.",
+   "note_es": "However abre una oración nueva: punto antes, mayúscula y coma después. No lo pongas entre dos ideas solo con coma como si fuera but."
+  },
+  {
+   "en": "The system was slow because the database had no indexes.",
+   "es": "El sistema estaba lento porque la base de datos no tenía índices.",
+   "note_es": "Because va seguido de sujeto y verbo (the database had). Da la razón, no el resultado. Es el que más vas a usar para responder preguntas con Why."
+  },
+  {
+   "en": "The meeting was cancelled due to a power cut.",
+   "es": "La reunión se canceló debido a un corte de luz.",
+   "note_es": "Due to va seguido de un sustantivo (a power cut), nunca de sujeto y verbo. Si lo que sigue tiene verbo, cambia a because: because the power went out."
+  },
+  {
+   "en": "The server crashed, so we lost the data. As a result, we now make backups every day.",
+   "es": "El servidor se cayó, así que perdimos los datos. Por eso, ahora hacemos copias de seguridad todos los días.",
+   "note_es": "So y as a result indican resultado (así que, por eso, en consecuencia). So une dos ideas en una sola oración, con coma antes; as a result empieza una oración nueva y lleva coma después."
+  },
+  {
+   "en": "First, I download the installer. Then I run it. After that, I accept the terms. Finally, I click Install.",
+   "es": "Primero, descargo el instalador. Luego lo ejecuto. Después de eso, acepto los términos. Por último, hago clic en Instalar.",
+   "note_es": "Esta es la cadena para describir un proceso paso a paso en el oral. First, after that y finally llevan coma; then puede ir con o sin coma. Fíjate que después solo al inicio se dice after that, no after."
+  },
+  {
+   "en": "I use tools such as Git and MySQL, as well as Visual Studio Code.",
+   "es": "Uso herramientas como Git y MySQL, además de Visual Studio Code.",
+   "note_es": "Such as presenta ejemplos, igual que como o por ejemplo en español (es un poco más formal que like). As well as suma un elemento más, parecido a and pero un poco más formal."
+  }
+ ],
+ "common_errors": [
+  {
+   "wrong": "I like this job, however the salary is low.",
+   "right": "I like this job. However, the salary is low.",
+   "why_es": "En español es común escribir sin embargo en medio de la frase solo entre comas. En inglés, however no une dos oraciones con una coma como but: necesita punto antes y coma después. Si quieres una sola oración con coma, usa but: I like this job, but the salary is low."
+  },
+  {
+   "wrong": "The class was cancelled due to the instructor was sick.",
+   "right": "The class was cancelled because the instructor was sick.",
+   "why_es": "Due to solo acepta un sustantivo después (due to the rain). Si lo que sigue tiene sujeto y verbo (the instructor was sick), el conector correcto es because."
+  },
+  {
+   "wrong": "I chose ADSO because of I like programming.",
+   "right": "I chose ADSO because I like programming.",
+   "why_es": "Because of va con sustantivo (because of the schedule); because va con sujeto y verbo. Recuerda: because of es a causa de o por; because es porque."
+  },
+  {
+   "wrong": "I open the program. After, I click Save.",
+   "right": "I open the program. After that, I click Save.",
+   "why_es": "En español decimos después solo, pero en inglés after no puede quedar suelto al inicio de la oración. Necesita complemento (after that, after the installation) o cámbialo por then o afterwards."
+  },
+  {
+   "wrong": "I not only test the code but too I document it.",
+   "right": "I not only test the code but also document it.",
+   "why_es": "La pareja fija es not only... but also, que equivale a no solo... sino también. Too va al final de una frase (I document it too), no dentro de esta estructura."
+  },
+  {
+   "wrong": "Because the internet was slow, so we couldn't upload the project.",
+   "right": "Because the internet was slow, we couldn't upload the project.",
+   "why_es": "En español decimos como el internet estaba lento, entonces no pudimos. En inglés no se usan because y so en la misma oración: because da la causa y so el resultado, así que eliges uno. También vale: The internet was slow, so we couldn't upload the project."
+  },
+  {
+   "wrong": "In the other hand, working from home saves money.",
+   "right": "On the other hand, working from home saves money.",
+   "why_es": "Es una traducción directa de por otro lado, pero la expresión fija en inglés es on the other hand, con on. Con in es un error y el instructor lo nota de inmediato."
+  }
+ ],
+ "oral_questions": [
+  {
+   "question": "Can you explain how you install a program step by step?",
+   "model_answer": "First, I download the installer from the official website. Then I run it and accept the terms. After that, I choose the folder, and finally I click Install.",
+   "focus": "Secuencia para describir un proceso: first, then, after that, finally."
+  },
+  {
+   "question": "Why did you choose software development?",
+   "model_answer": "I chose it because I like solving problems with code. Also, there are many jobs in this area, so I think it is a good option for the future.",
+   "focus": "Causa y efecto: because, so; adición: also."
+  },
+  {
+   "question": "What are two advantages and one disadvantage of working from home?",
+   "model_answer": "Working from home saves time and money because I don't have to travel. On the other hand, it is easy to get distracted at home.",
+   "focus": "Adición y contraste: and, because, on the other hand."
+  },
+  {
+   "question": "How does your access-control project register a visitor?",
+   "model_answer": "First, the guard asks for the visitor's ID and types it into the system. Next, the system checks the database and prints a badge. After that, the visitor can enter the center.",
+   "focus": "Proceso paso a paso de tu proyecto: first, next, after that."
+  },
+  {
+   "question": "What tools do you use in your project, and why?",
+   "model_answer": "I use tools such as MySQL for the database and Java for the backend. I chose MySQL because it is free and my instructor recommended it.",
+   "focus": "Ejemplos con such as; razón con because."
+  },
+  {
+   "question": "Which do you prefer, frontend or backend? Why?",
+   "model_answer": "I prefer backend because I like working with databases. However, frontend is also important, so I am learning both.",
+   "focus": "Contraste con however; resultado con so."
+  },
+  {
+   "question": "When do you study English, and how do you organize your time?",
+   "model_answer": "I study English at night, after my SENA classes. First, I review vocabulary. Then I do some exercises, and finally I practice speaking for ten minutes.",
+   "focus": "Secuencia: first, then, finally; tiempo: after más sustantivo (after my classes)."
+  },
+  {
+   "question": "What happened the last time your code didn't work?",
+   "model_answer": "Last week my program didn't compile due to a missing semicolon, so I lost an hour. Therefore, I now check my code carefully before I run it.",
+   "focus": "Causa y efecto en pasado: due to más sustantivo, so, therefore."
+  },
+  {
+   "question": "Who helps you with your project, and how do you divide the work?",
+   "model_answer": "My team helps me. One classmate designs the database, and I write the code. Moreover, we not only test the app but also document it.",
+   "focus": "Adición: and, moreover, not only... but also."
+  },
+  {
+   "question": "Where would you like to work after SENA, and what is one difficulty?",
+   "model_answer": "I would like to work in a software company in Bogotá. However, there is a lot of competition, so I need to keep learning.",
+   "focus": "Contraste y resultado: however, so."
+  }
+ ],
+ "roleplay": {
+  "situation_es": "Estás presentando el sistema de control de acceso al coordinador del centro de formación, que hace el papel de cliente. Él quiere entender el proceso paso a paso y por qué tomaste algunas decisiones. Usa conectores de secuencia, causa, adición y contraste; el instructor evalúa que conectes los pasos en orden.",
+  "lines": [
+   {
+    "speaker": "Client",
+    "line": "Good morning. Can you explain how the system registers a new visitor?"
+   },
+   {
+    "speaker": "You",
+    "line": "Of course. First, the guard asks for the visitor's ID and types the number into the system. Then the system checks if the person is already in the database."
+   },
+   {
+    "speaker": "Client",
+    "line": "And what happens if the person is not in the database?"
+   },
+   {
+    "speaker": "You",
+    "line": "In that case, the guard creates a new record. After that, the system prints a badge with a QR code, and finally the visitor can enter."
+   },
+   {
+    "speaker": "Client",
+    "line": "Why did you use a QR code instead of a normal card?"
+   },
+   {
+    "speaker": "You",
+    "line": "Because QR codes are cheap and fast. Moreover, the guard can read them with a phone, so we don't need a special card reader."
+   },
+   {
+    "speaker": "Client",
+    "line": "Sounds good. Are there any disadvantages?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes, one. If there is no internet, the system cannot check the database. However, we save the data locally and sync it later, so nothing is lost."
+   },
+   {
+    "speaker": "Client",
+    "line": "And what about equipment that visitors bring, such as laptops?"
+   },
+   {
+    "speaker": "You",
+    "line": "We register it in a similar way. The guard takes a photo and writes down the serial number. As a result, we can check the item when the person leaves."
+   },
+   {
+    "speaker": "Client",
+    "line": "Perfect. Thank you for the explanation."
+   },
+   {
+    "speaker": "You",
+    "line": "You're welcome. Also, I can send you a short manual with these steps if you want."
+   }
+  ]
+ }
+}

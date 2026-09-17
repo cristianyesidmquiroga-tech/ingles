@@ -1,0 +1,184 @@
+{
+ "key": "pronunciation",
+ "title_es": "Pronunciación para el examen oral",
+ "explanation_es": "La pronunciación no es gramática, pero en el examen oral cuenta: uno de los criterios es \"pronunciación clara\". En esta guía las palabras se escriben como se leerían en español, con dos convenciones: z es una z que zumba (no la s colombiana) y th es la lengua entre los dientes soplando, como la z de España.\n\nLa regla más importante es la -ED del pasado simple, que casi nunca es sílaba extra. Si el verbo termina en sonido t o d, suena \"id\" y agrega sílaba: wanted \"uántid\", needed \"nídid\". Si termina en sonido sordo (p, k, s, sh, ch, f, x), suena \"t\" pegada: worked \"uorkt\", stopped \"stopt\", fixed \"fikst\". En los demás casos (vocales y sonidos que vibran como l, n, r, v, m, z), suena \"d\" pegada: played \"pleid\", lived \"livd\", used \"iúzd\". Truco: ¿termina en t o d? \"id\". ¿Vibra la garganta? \"d\". ¿No vibra? \"t\". Ojo: used to (solía) suena \"iúst tu\".\n\nEn pasado simple, negativa y pregunta llevan el verbo en base (didn't work, Did you work?). Con have o has el participio sí conserva la -ED: I haven't finished \"fínisht\".\n\nEn la parte escrita aparece como una tabla /t/ /d/ /id/ para clasificar verbos. Mira el último sonido del verbo base, no la letra: use termina en e pero suena z, así que used va en /d/.\n\nLos irregulares no siguen la regla; memorízalos: said es \"sed\", no \"seid\"; read en pasado es \"red\"; bought, thought, caught y taught riman (\"bot\", \"thot\", \"cot\", \"tot\"); done es \"dan\"; gone es \"gon\"; made y came llevan \"ei\"; wrote y drove llevan \"ou\", pero wore es \"uor\"; heard es \"jerd\".\n\nLas contracciones (didn't, wasn't, haven't, I've) se dicen como una sola palabra: marca la consonante final sin agregarle \"e\". En la frase, di fuerte las palabras de contenido (verbos, sustantivos, negaciones) y suaviza las pequeñas (the, to, a, was, were): ese ritmo suena fluido.",
+ "contrast": [
+  {
+   "en": "I stopped the server and checked the logs.",
+   "es": "ai stopt de sérver and chekt de logz (Detuve el servidor y revisé los registros.)",
+   "note_es": "stopped y checked terminan en sonido sordo (p, k), así que la -ED es una t pegada: una sola sílaba. Y stopped empieza con la s sola: stopt, nunca estopt."
+  },
+  {
+   "en": "I wanted to finish, but we needed more time.",
+   "es": "ai uántid tu fínish, bat uí nídid mor taim (Quería terminar, pero necesitábamos más tiempo.)",
+   "note_es": "wanted y needed terminan en t y d: aquí sí la -ED suena id y agrega una sílaba (uán-tid, ní-did). Es el único caso con sílaba extra."
+  },
+  {
+   "en": "She said the client called.",
+   "es": "shi sed de cláient cold (Ella dijo que el cliente llamó.)",
+   "note_es": "said suena sed, no seid. called termina en l, que vibra, así que la -ED es d pegada: léelo en español, col-d, no como la palabra cold (frío), que suena kould. La d de the va con la lengua entre los dientes, suave como la d de nada."
+  },
+  {
+   "en": "I bought a laptop and I thought it was expensive.",
+   "es": "ai bot a láptop and ai thot it uóz ekspénsiv (Compré un portátil y me pareció caro.)",
+   "note_es": "bought, thought, caught y taught riman: bot, thot, cot, tot. Las letras gh no suenan. La th de thought es como la z de España: lengua entre los dientes, soplando sin voz. Si la dices como s o t, no se entiende."
+  },
+  {
+   "en": "I didn't finish because I wasn't ready.",
+   "es": "ai dídnt fínish bicóz ai uóznt rédi (No terminé porque no estaba listo.)",
+   "note_es": "didn't y wasn't se dicen como una sola palabra rápida. Marca la t final pero no le agregues e: dídnt, no dídente."
+  },
+  {
+   "en": "I've done the tests and he's gone home.",
+   "es": "aiv dan de tests and jiz gon joum (Ya hice las pruebas y él se fue para la casa.)",
+   "note_es": "done es dan (no doun) y gone es gon. I've y he's son una sola palabra: aiv, jiz. La v de I've se hace con los dientes de arriba sobre el labio de abajo. En tests pronuncia las tres consonantes finales: t, s, t, s."
+  },
+  {
+   "en": "I live in Bogotá. I leave at six.",
+   "es": "ai liv in bogotá. ai liiv at siks (Vivo en Bogotá. Salgo a las seis.)",
+   "note_es": "live lleva i corta y relajada (casi entre i y e); leave lleva i larga, como sonriendo. Si alargas la i de live, dices que te vas, no que vives."
+  }
+ ],
+ "common_errors": [
+  {
+   "wrong": "work-ed, finish-ed (uor-ked, fínish-ed, con sílaba extra)",
+   "right": "worked = uorkt, finished = fínisht (sin sílaba extra)",
+   "why_es": "En español leemos todas las letras; en inglés la -ED después de un sonido sordo (k, p, s, sh, ch, f) es solo una t pegada. Si dices uor-ked, el instructor oye una palabra rara y no reconoce el pasado."
+  },
+  {
+   "wrong": "estopped, estudied, estarted, estudent",
+   "right": "stopped = stopt, studied = stádid, started = stártid, student = stiúdent",
+   "why_es": "El español no permite empezar palabra con s más consonante, por eso agregamos e (como en estudiar). En inglés esa e no existe. Truco: alarga la s como un silbido (ssss-topt) y suelta la palabra sin vocal antes."
+  },
+  {
+   "wrong": "said = seid, read (pasado) = riid",
+   "right": "said = sed, read (pasado) = red",
+   "why_es": "La escritura engaña: said parece seid pero suena como la palabra sed en español. Y read en pasado se escribe igual que el presente pero suena red, como el color. Si dices riid, el instructor entiende presente."
+  },
+  {
+   "wrong": "bery, I hab, I habent, debelopt (v pronunciada como b)",
+   "right": "very = veri, have = jav, haven't = jávnt, developed = divélopt (dientes de arriba sobre el labio de abajo)",
+   "why_es": "En español la v y la b suenan igual. En inglés la v se hace con los dientes de arriba tocando el labio de abajo, y vibra. Importa mucho en have y haven't porque son la marca del presente perfecto."
+  },
+  {
+   "wrong": "Yesterday I work and we finish the tes (uork, fínish, tes: sin la consonante final)",
+   "right": "Yesterday I worked and we finished the tests (uorkt, fínisht, tests: t final clara)",
+   "why_es": "En español casi ninguna palabra termina en grupos como kt o sht, y tendemos a suavizar el final; en inglés esas consonantes cargan el tiempo verbal. Si te comes la t o la d de la -ED, el instructor oye presente y cree que no sabes el pasado."
+  },
+  {
+   "wrong": "de, dis, dat con la d fuerte de dedo; think dicho como sink o tink",
+   "right": "the, this, that con la lengua entre los dientes y la d suave de nada; think = think con la lengua entre los dientes, soplando sin voz",
+   "why_es": "Hay dos th. La sonora (the, this, that, they) se parece a la d suave de nada. La sorda (think, thought, three, Thursday) es como la z de España, no como la s colombiana. Sacar un poquito la lengua entre los dientes es lo que la diferencia de d, s y t. Si dices sink en vez de think, dices hundir o lavaplatos."
+  },
+  {
+   "wrong": "I liiv in Bogotá, I liivd with my parents (i larga: suena como leave)",
+   "right": "I live in Bogotá = ai liv; I lived with my parents = ai livd",
+   "why_es": "El español tiene una sola i; el inglés tiene i corta (live, did, finish, big) e i larga (leave, need, team, sleep). La corta es más relajada, entre i y e. Si alargas todas, live suena a leave, que significa irse."
+  }
+ ],
+ "oral_questions": [
+  {
+   "question": "Lee en voz alta: Last week I worked on the database and finished the login module.",
+   "model_answer": "last uík ai uorkt on de déitabeis and fínisht de lóguin mádyul",
+   "focus": "-ED como t pegada (uorkt, fínisht), sin sílaba extra; consonantes finales claras; la d de the con la lengua entre los dientes."
+  },
+  {
+   "question": "Lee en voz alta marcando la sílaba extra solo donde toca: We started the project in February and we needed a new server.",
+   "model_answer": "uí stártid de práyekt in fébiueri and uí nídid a niú sérver",
+   "focus": "-ED como id (sílaba extra) solo después de t y d: stártid, nídid; started empieza con s sola, sin e antes."
+  },
+  {
+   "question": "Lee en voz alta sin agregar e antes de la s: I studied at SENA and I stopped using Excel for the inventory.",
+   "model_answer": "ai stádid at séna and ai stopt iúzing iksél for de ínventori",
+   "focus": "Grupos st sin e inicial (stádid, stopt); en studied la -ED es d pegada (después de sonido vocal) y la palabra sigue con dos sílabas, como study; en stopped es t pegada."
+  },
+  {
+   "question": "Lee en voz alta: My instructor said the code was ready, but I heard that it needed more tests.",
+   "model_answer": "mai instráctor sed de koud uóz rédi, bat ai jerd dat it nídid mor tests",
+   "focus": "said = sed; heard = jerd (no suena como hear); was suave y corto en la frase; needed con sílaba extra id; th de the y that con la lengua entre los dientes."
+  },
+  {
+   "question": "Lee en voz alta diciendo cada contracción como una sola palabra: I didn't sleep well because we weren't ready for the demo.",
+   "model_answer": "ai dídnt sliip uel bicóz uí uérnt rédi for de démou",
+   "focus": "Contracciones didn't y weren't sin vocal extra y con la t final marcada; i larga en sleep; because termina en sonido z que zumba."
+  },
+  {
+   "question": "Lee en voz alta: I've done the database design, but I haven't written the documentation yet.",
+   "model_answer": "aiv dan de déitabeis dizáin, bat ai jávnt rítn de dokiumentéishon yet",
+   "focus": "done = dan, no doun; v de I've y haven't con los dientes sobre el labio; la w de written no suena; design suena con z (dizáin); contracción haven't sin e."
+  },
+  {
+   "question": "Lee en voz alta: Yesterday my boss bought new equipment and taught us how to register it.",
+   "model_answer": "yésterdei mai bos bot niú ikuípment and tot as jáu tu réyister it",
+   "focus": "bought y taught riman (bot, tot); las letras gh no suenan; consonantes finales claras en equipment y register."
+  },
+  {
+   "question": "Lee en voz alta: He wore his badge, wrote his name and drove to the warehouse.",
+   "model_answer": "ji uor jiz bach, rout jiz neim and drouv tu de uérjaus",
+   "focus": "Irregulares: wore = uor, wrote = rout, drove = drouv; la w de wrote es muda; la h de he, his y warehouse suena como una j suave, casi un soplo."
+  },
+  {
+   "question": "Lee en voz alta: When I was a child, we lived in the country. My parents were farmers and they came to Bogotá in 2010.",
+   "model_answer": "uén ai uóz a cháild, uí livd in de cántri. mai pérents uer fármerz and dei keim tu bogotá in tuénti ten",
+   "focus": "was y were suaves y rápidos en la frase; lived = livd con i corta y -ED como d pegada; came = keim; th de the y they con la lengua entre los dientes."
+  },
+  {
+   "question": "Lee en voz alta marcando fuerte las palabras importantes y suave las pequeñas: I have been a student for two years and I have worked on three projects.",
+   "model_answer": "ai jav bin a STIÚdent for TU YÍRZ and ai jav UORKT on THRI PRÁyekts",
+   "focus": "Ritmo de la frase: fuerte en student, two years, worked, three, projects; suave en I, have, been, a, for, and, on. Además been = bin (inglés americano), worked = uorkt, three = thri con la lengua entre los dientes, student sin e antes de la s."
+  }
+ ],
+ "roleplay": {
+  "situation_es": "Es lunes en el SENA. Tu instructor te pregunta qué pasó la semana pasada con el proyecto de control de acceso. Lee tu parte en voz alta tres veces: despacio, normal y rápido. Guía de sonidos de tus líneas: worked uorkt, finished fínisht, Thursday thérzdei, tested téstid, stopped stopt, needed nídid, said sed, were uer, changed chéinyd, called cold (léelo col-d), thought thot, was uóz, wasn't uóznt, done dan, fixed fikst, written rítn, haven't jávnt, checked chekt, bought bot, registered réyisterd. Solo tested y needed tienen sílaba extra; los demás verbos regulares terminan en una t o d pegada.",
+  "lines": [
+   {
+    "speaker": "Instructor",
+    "line": "Good morning. What did you do last week?"
+   },
+   {
+    "speaker": "You",
+    "line": "I worked on the login module and I finished the database design."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Did you test it?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes, I tested it on Thursday, but the server stopped twice."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "What happened?"
+   },
+   {
+    "speaker": "You",
+    "line": "We needed more memory. My teammate said the queries were too slow, so we changed them."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Did you talk to the client?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes, I called him on Friday. He thought the system was ready, but I wasn't sure."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "What have you done since then?"
+   },
+   {
+    "speaker": "You",
+    "line": "I've fixed two bugs and I've written the user manual. I haven't checked the reports yet."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Good. Who bought the new card reader?"
+   },
+   {
+    "speaker": "You",
+    "line": "My boss bought it last month. We registered it yesterday and it worked perfectly."
+   }
+  ]
+ }
+}

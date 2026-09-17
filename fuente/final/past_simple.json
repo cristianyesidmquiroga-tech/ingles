@@ -1,0 +1,184 @@
+{
+ "key": "past_simple",
+ "title_es": "Pasado simple (Past simple)",
+ "explanation_es": "El past simple se usa para acciones que empezaron y terminaron en el pasado, en un momento concreto: ayer, la semana pasada, hace dos años, en 2020. Casi siempre equivale al pretérito: I worked es trabajé, I went es fui. También cubre estados pasados que en español van en imperfecto: I was tired es estaba cansado. Pero una acción en progreso (estaba trabajando) va en past continuous: I was working.\n\nAfirmativa: sujeto + verbo en pasado. Los regulares agregan -ed: work, worked. Ortografía: si el verbo termina en e, solo se agrega d (live, lived); si termina en consonante + y, la y cambia a i (study, studied); si tiene una sílaba y termina en consonante-vocal-consonante, dobla la última letra (stop, stopped). Los irregulares se aprenden de memoria: go, went; have, had; do, did; make, made; write, wrote.\n\nPronunciación de -ed: suena como sílaba extra (id) solo después de sonido t o d: wanted, needed. Después de sonidos como k, p, s, sh o ch suena t: worked, stopped, watched. En los demás casos suena d: played, lived.\n\nNegativa: sujeto + didn't + verbo base: I didn't work, she didn't go. Pregunta: Did + sujeto + verbo base: Did you finish the report? El pasado se marca una sola vez, en did; después de did o didn't el verbo nunca lleva -ed ni forma irregular. Excepción: cuando who es el sujeto no se usa did: Who helped you?\n\nEl verbo to be no usa did: was (I, he, she, it) y were (you, we, they). I was tired, they weren't here, Were you at SENA yesterday?\n\nLas trampas para hispanohablantes: decir I have worked yesterday por asociar have worked con he trabajado (con yesterday, last week, ago o in 2020 va past simple), y decir I didn't went o Did you finished. Palabras señal: yesterday, last week, two days ago, in 2020, when I was a child.",
+ "contrast": [
+  {
+   "en": "I finished the database module last week.",
+   "es": "Terminé el módulo de la base de datos la semana pasada.",
+   "note_es": "Verbo regular: finish más -ed, que suena t (finisht). Last week es la señal de pasado terminado; por eso no va have finished."
+  },
+  {
+   "en": "We didn't use a framework in the first version.",
+   "es": "No usamos ningún framework en la primera versión.",
+   "note_es": "En negativa el pasado va en didn't; use se queda en forma base. Nunca didn't used."
+  },
+  {
+   "en": "Did you test the login form?",
+   "es": "¿Probaste el formulario de inicio de sesión?",
+   "note_es": "La pregunta se arma con Did al inicio y el verbo en base: test, no tested. En español el pretérito hace todo el trabajo; en inglés lo hace did."
+  },
+  {
+   "en": "Where did you study programming?",
+   "es": "¿Dónde estudiaste programación?",
+   "note_es": "Orden fijo: palabra interrogativa, did, sujeto, verbo base. En afirmativa sería studied, pero después de did va study."
+  },
+  {
+   "en": "I was nervous during my first presentation.",
+   "es": "Estaba nervioso durante mi primera presentación.",
+   "note_es": "Was/were no necesita did. En español usamos estaba (imperfecto), pero en inglés sigue siendo past simple porque describe un estado, no una acción en progreso."
+  },
+  {
+   "en": "My team wasn't ready, so we asked for more time.",
+   "es": "Mi equipo no estaba listo, así que pedimos más tiempo.",
+   "note_es": "Negativa de be: wasn't/weren't, sin didn't. Ask es regular: asked, y la -ed se pronuncia como t (askt), no como una sílaba extra."
+  },
+  {
+   "en": "I started the ADSO program two years ago.",
+   "es": "Empecé el programa ADSO hace dos años.",
+   "note_es": "Ago va después del tiempo (two years ago), no antes como hace en español. Started sí tiene sílaba extra (star-tid) porque el verbo termina en t."
+  }
+ ],
+ "common_errors": [
+  {
+   "wrong": "I have worked on the project yesterday.",
+   "right": "I worked on the project yesterday.",
+   "why_es": "Con un momento terminado (yesterday, last week, ago, in 2020) el inglés exige past simple. El error viene de asociar have worked con he trabajado, pero en español tampoco decimos he trabajado ayer: decimos trabajé ayer."
+  },
+  {
+   "wrong": "I didn't went to class on Monday.",
+   "right": "I didn't go to class on Monday.",
+   "why_es": "El pasado ya está en didn't. Marcarlo dos veces (didn't went) es de los errores más comunes: después de didn't el verbo vuelve a la forma base."
+  },
+  {
+   "wrong": "Did you finished the report?",
+   "right": "Did you finish the report?",
+   "why_es": "Mismo principio en preguntas: did carga el pasado y el verbo se queda en base, sin -ed y sin forma irregular."
+  },
+  {
+   "wrong": "I no understood the question.",
+   "right": "I didn't understand the question.",
+   "why_es": "Es la traducción literal de no entendí. En inglés la negación en pasado necesita didn't (did más not) y el verbo vuelve a base: understand, no understood."
+  },
+  {
+   "wrong": "What you did yesterday?",
+   "right": "What did you do yesterday?",
+   "why_es": "Falta el auxiliar did antes del sujeto. La fórmula es palabra interrogativa, did, sujeto, verbo base. Aquí do aparece dos veces con funciones distintas: did es el auxiliar y do es el verbo hacer."
+  },
+  {
+   "wrong": "I studyed programming at SENA.",
+   "right": "I studied programming at SENA.",
+   "why_es": "Ortografía: cuando el verbo termina en consonante más y, la y cambia a i antes de -ed: study, studied; try, tried. Si termina en vocal más y no cambia: play, played."
+  },
+  {
+   "wrong": "Were you tired yesterday? Yes, I did.",
+   "right": "Were you tired yesterday? Yes, I was.",
+   "why_es": "Las preguntas con was/were se responden con was/were, no con did. Did solo responde a preguntas que empezaron con Did."
+  }
+ ],
+ "oral_questions": [
+  {
+   "question": "What did you do yesterday?",
+   "model_answer": "Yesterday I went to SENA in the morning. In the afternoon I worked on my project. At night I watched a series and went to bed early.",
+   "focus": "Afirmativa con verbos irregulares (went) y regulares (worked, watched), más expresiones de tiempo."
+  },
+  {
+   "question": "Where did you study before SENA?",
+   "model_answer": "I studied at a public school in my town. I finished high school a few years ago.",
+   "focus": "Pregunta con Where + did + verbo base; respuesta con verbos regulares (studied, finished) y ago."
+  },
+  {
+   "question": "When did you start the ADSO program?",
+   "model_answer": "I started the ADSO program last year. At the beginning it was difficult, but I learned a lot.",
+   "focus": "Expresión de tiempo last year y was para describir una situación pasada."
+  },
+  {
+   "question": "What was the last project you worked on?",
+   "model_answer": "The last project I worked on was an access control system. We built it for an agricultural center. I worked on the database and the login module.",
+   "focus": "Was como verbo principal, irregular built y verbo regular en -ed (worked)."
+  },
+  {
+   "question": "Did you have any problems with the project?",
+   "model_answer": "Yes, I did. We had a problem with the user roles. We fixed it after a meeting with our instructor.",
+   "focus": "Respuesta corta Yes, I did / No, I didn't; irregular had y regular fixed."
+  },
+  {
+   "question": "Who helped you when you had a problem?",
+   "model_answer": "My instructor helped me a lot. My classmates also explained some things to me. We worked as a team.",
+   "focus": "Pregunta con Who como sujeto: no lleva did, el verbo va directo en pasado (helped)."
+  },
+  {
+   "question": "How did you learn to program?",
+   "model_answer": "I learned the basics at SENA. Then I practiced at home with videos. It wasn't easy, but I didn't stop.",
+   "focus": "Negativa con wasn't y con didn't + verbo base (didn't stop)."
+  },
+  {
+   "question": "Why did you choose ADSO?",
+   "model_answer": "I chose ADSO because I liked computers when I was a child. I also wanted a career with good job opportunities.",
+   "focus": "Irregular chose, regulares liked y wanted, y la expresión when I was a child."
+  },
+  {
+   "question": "Where were you last weekend?",
+   "model_answer": "I was with my family in my hometown. On Saturday we visited my grandmother. On Sunday I stayed at home and studied English.",
+   "focus": "Was/were en pregunta y respuesta, sin did; regulares visited, stayed y studied."
+  },
+  {
+   "question": "What tools did you use in your last project?",
+   "model_answer": "We used a relational database and a web framework. I also used Git to share the code with my team.",
+   "focus": "What + did + sujeto + verbo base; respuesta con el regular used."
+  }
+ ],
+ "roleplay": {
+  "situation_es": "Es lunes. Tu instructor revisa el avance del proyecto de control de acceso y te pregunta qué hiciste la semana pasada. Tú respondes en pasado simple, incluyendo un problema que tuviste y cómo lo resolviste.",
+  "lines": [
+   {
+    "speaker": "Instructor",
+    "line": "Good morning. What did you do on the project last week?"
+   },
+   {
+    "speaker": "You",
+    "line": "Good morning. I designed the database and created the tables for users, visitors and equipment."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Did you finish the login module?"
+   },
+   {
+    "speaker": "You",
+    "line": "No, I didn't. I started it on Thursday, but I had a problem with the user roles."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "What was the problem?"
+   },
+   {
+    "speaker": "You",
+    "line": "The system gave admin access to every user. I found the error in the validation code."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "How did you fix it?"
+   },
+   {
+    "speaker": "You",
+    "line": "I checked the code with a classmate and we changed the condition. We tested it on Friday and it worked."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Good. Was the client happy with the progress?"
+   },
+   {
+    "speaker": "You",
+    "line": "Yes, he was. We showed him the demo and he asked for a new report about the equipment."
+   },
+   {
+    "speaker": "Instructor",
+    "line": "Perfect. When did you upload the latest version to the repository?"
+   },
+   {
+    "speaker": "You",
+    "line": "I uploaded it on Friday night. I also wrote the documentation for the tables."
+   }
+  ]
+ }
+}

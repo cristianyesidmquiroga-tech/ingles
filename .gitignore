@@ -1,0 +1,11 @@
+# Copias de prueba locales
+_prueba.html
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
