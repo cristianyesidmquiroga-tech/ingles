@@ -76,7 +76,6 @@ button{font:inherit;cursor:pointer;color:inherit}
 .progress{flex:1;height:18px;background:var(--surface2);border-radius:999px;overflow:hidden;border:2px solid var(--line)}
 .progress i{display:block;height:100%;background:var(--u);border-radius:999px;width:0;position:relative;overflow:hidden}
 .progress i::before{content:"";position:absolute;left:8px;right:8px;top:3px;height:4px;border-radius:9px;background:rgba(255,255,255,.35)}
-.hearts{color:var(--bad);font-weight:700;letter-spacing:.08em;white-space:nowrap;font-size:1.2rem;display:inline-block}
 .timer{font-family:var(--mono);font-weight:600;font-variant-numeric:tabular-nums;background:var(--surface);border:2px solid var(--line);border-radius:10px;padding:.1rem .5rem}
 .timer.low{color:var(--bad);border-color:var(--bad)}
 .card{background:var(--surface);border:2px solid var(--line);border-radius:22px;padding:1.25rem;box-shadow:var(--shadow)}
@@ -331,7 +330,6 @@ h3.sub{font-size:1.1rem;margin-top:1.3rem;color:color-mix(in srgb,var(--u) 62%,v
 @keyframes rise{from{transform:translateY(14px)}to{transform:translateY(0)}}
 @keyframes drop{from{transform:scale(.7)}to{transform:scale(1)}}
 @keyframes bump{0%{transform:scale(1)}40%{transform:scale(1.25)}100%{transform:scale(1)}}
-@keyframes hurt{0%,100%{transform:scale(1)}30%{transform:scale(1.5) rotate(-8deg)}60%{transform:scale(.9) rotate(6deg)}}
 @keyframes starin{0%{transform:scale(0) rotate(-120deg)}70%{transform:scale(1.3) rotate(10deg)}100%{transform:scale(1) rotate(0)}}
 @keyframes starin2{0%{transform:translateY(-12px) scale(0) rotate(-120deg)}70%{transform:translateY(-12px) scale(1.45) rotate(10deg)}100%{transform:translateY(-12px) scale(1.15) rotate(0)}}
 @keyframes micpulse{0%,100%{box-shadow:0 7px 0 var(--badd),0 0 0 0 color-mix(in srgb,var(--bad) 45%,transparent)}50%{box-shadow:0 7px 0 var(--badd),0 0 0 20px transparent}}
@@ -345,7 +343,6 @@ h3.sub{font-size:1.1rem;margin-top:1.3rem;color:color-mix(in srgb,var(--u) 62%,v
   .card.shake{animation:shake .45s ease}
   .card.pop{animation:cardpop .4s var(--spring)}
   .feedback.good,.feedback.bad{animation:rise .35s var(--spring)}
-  .hearts.hurt{animation:hurt .55s ease}
   .timer.low,.bigtimer.low{animation:bump 1s ease-in-out infinite}
   .big-stars span.on{animation:starin .6s var(--spring) both;animation-delay:calc(var(--i) * 220ms + 150ms)}
   .big-stars span.on:nth-child(2){animation-name:starin2}
@@ -372,9 +369,9 @@ h3.sub{font-size:1.1rem;margin-top:1.3rem;color:color-mix(in srgb,var(--u) 62%,v
     <div id="guides" class="guides"></div>
     <div id="menuTiles" class="tiles"></div>
     <details class="rules"><summary>Cómo funciona</summary>
-      <p>Cada nivel tiene una explicación corta y ejercicios. Solo pasas al siguiente si respondes bien al menos el 90% al primer intento.</p>
-      <p>Cada nivel te da pocas vidas. Si se acaban, el nivel termina y tienes que repetirlo. En niveles de menos de 10 preguntas no se permite ningún error.</p>
-      <p>Todo lo que falles se guarda. Cuando termines una guía se abre Mejorar, para practicar solo lo que fallaste hasta dominarlo.</p>
+      <p>Cada nivel tiene una explicación corta y ejercicios. Al terminarlo siempre pasas al siguiente, aunque falles.</p>
+      <p>Las estrellas dependen de cuánto aciertas: 3 sin errores, 2 si aciertas el 80% o más y 1 si aciertas menos.</p>
+      <p>Todo lo que falles se guarda en Mejorar, para practicar solo eso hasta dominarlo. Al final de cada nivel ves la lista de tus errores.</p>
       <p>Como tu examen es mañana, los simulacros y la sección Mejorar están abiertos desde el inicio, sin tener que pasar todos los niveles antes.</p>
       <h3 class="sub">Por qué está armado así</h3>
       <p>Dentro de cada tema el orden es: primero <b>leer</b>, después <b>escribir</b> y al final <b>hablar</b>. Primero ves la estructura, después la trabajas por escrito y al final la produces en voz alta.</p>
@@ -414,7 +411,7 @@ h3.sub{font-size:1.1rem;margin-top:1.3rem;color:color-mix(in srgb,var(--u) 62%,v
   <main id="voiceView" hidden></main>
   <main id="learnView" hidden></main>
   <main id="playView" hidden>
-    <div class="bar-row"><button class="x" id="quitBtn" aria-label="Salir al mapa">✕</button><div class="progress"><i id="prog"></i></div><span class="hearts" id="hearts" aria-live="polite"></span><span class="timer" id="examTimer" hidden></span></div>
+    <div class="bar-row"><button class="x" id="quitBtn" aria-label="Salir al mapa">✕</button><div class="progress"><i id="prog"></i></div><span class="timer" id="examTimer" hidden></span></div>
     <div id="stage"></div>
   </main>
   <main id="resultView" hidden></main>
@@ -784,7 +781,7 @@ function merge(a,b){const out={stars:{...a.stars},xp:Math.max(a.xp||0,b.xp||0)};
  out.doneAt={...(a.doneAt||{}),...(b.doneAt||{})};
  out.mistakes={...(a.mistakes||{})};for(const[k,m]of Object.entries(b.mistakes||{})){const cur=out.mistakes[k];if(!cur||(m.last||0)>(cur.last||0))out.mistakes[k]=m}
  return out}
-function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}paintStats();
  if(dbRef){const snap=JSON.parse(JSON.stringify(state));writing=writing.then(()=>dbRef.set(snap)).catch(()=>{})}}
 (async()=>{try{const db=await window.claude?.use?.('db');if(!db)return;const ref=db.doc('progreso/principal');const s=await ref.get();dbRef=ref;if(s.exists){state=merge(state,s.data());if(!$('mapView').hidden)renderMap();else renderMenu()}save()}catch(e){}})();
 let guide='rap4';
@@ -815,7 +812,7 @@ function recordHit(it){const k=itemKey(it),m=state.mistakes[k];if(!m||m.done)ret
  if(m.streak>=2){state.mistakes[k]={done:true,last:m.last};if(S)S.mastered=(S.mastered||0)+1}}
 const guideDone=g=>guideLevels(g).every(l=>(state.stars[l.id]||0)>=1);
 const gameDone=()=>guideDone('rap4')||guideDone('rap5');
-const fixOpen=()=>gameDone()||examMode();
+const fixOpen=()=>activeMistakes().length>0||gameDone()||examMode();
 
 /* ================= Color y celebración ================= */
 const UC=[['#F2542D','#B83A1B','#FFFFFF'],['#E83F8A','#A82463','#FFFFFF'],['#8B5CF6','#5B34C4','#FFFFFF'],['#2F80ED','#1C5BB5','#FFFFFF'],['#0D9488','#0A6B62','#FFFFFF'],['#16A34A','#0F7535','#FFFFFF'],['#C026D3','#8E1B9C','#FFFFFF'],['#EA580C','#9A3412','#FFFFFF'],['#334155','#1E293B','#FFD24A'],['#F5B301','#B98700','#2A1E00'],['#0891B2','#0E6F86','#FFFFFF'],['#65A30D','#4D7C0F','#FFFFFF'],['#4F46E5','#3730A3','#FFFFFF'],['#7C3AED','#5B21B6','#FFFFFF'],['#334155','#1E293B','#FFD24A']];
@@ -841,8 +838,7 @@ const LOCK='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor
 function show(v){['menuView','mapView','keyView','voiceView','dataView','trickView','verbView','learnView','playView','resultView','fixView'].forEach(id=>$(id).hidden=id!==v);window.scrollTo(0,0)}
 const OFF=[0,55,85,55,0,-55,-85,-55];
 function renderMap(){
- const total=Object.values(state.stars).reduce((a,b)=>a+b,0);
- $('sStars').textContent=total;$('sXp').textContent=state.xp;$('sStreak').textContent=state.streak;
+ paintStats();
  let html='';
  let un_=0;
  UNITS.forEach((u,ui)=>{
@@ -1033,7 +1029,6 @@ const PLAN_FIJO={weak:'all',time:'t30',exam:'tomorrow',mic:'ready',use:'otro',go
 const ans=()=>(state.quiz&&state.quiz.a)||PLAN_FIJO;
 const daysSinceQuiz=()=>{const q=state.quiz;if(!q||!q.at)return 99;const d=(new Date(today())-new Date(q.at))/86400000;return isNaN(d)?99:d};
 const micAllowed=()=>{const m=MICP[ans().mic];return !m||m.days===0||daysSinceQuiz()>=m.days};
-const retryNow=()=>ans().err==='now';
 function planActions(){
  const a=ans(),acts=[];
  const first=GUIA_PRINCIPAL;
@@ -1189,8 +1184,7 @@ function renderVoice(it,st,head){
 }
 /* ================= Sesión ================= */
 const GRADED=new Set(['mc','type','verb','tf','order','seq']);
-function passRule(lv){if(lv.exam)return 'Para aprobar: máximo 2 errores de 20.';const n=lv.build().filter(it=>GRADED.has(it.type)).length;if(!n)return 'Nivel de práctica oral: lo pasas al completarlo.';const a=lv.lenient?Math.max(1,Math.floor(n*.2)):Math.floor(n*.1);return a?`Para pasar: máximo ${a} ${a===1?'error':'errores'} en ${n} preguntas.`:`Para pasar: cero errores en ${n} preguntas.`}
-function paintHearts(){if(!S||S.graded===0||S.fix){$('hearts').textContent='';return}const left=Math.max(0,S.allowed+1-S.errors);$('hearts').textContent=S.exam?'':'♥'.repeat(left)+'♡'.repeat(S.allowed+1-left);$('hearts').setAttribute('aria-label',`${left} vidas`)}
+function passRule(lv){if(lv.exam)return '20 preguntas en 20 minutos. Al final ves todo lo que fallaste.';const n=lv.build().filter(it=>GRADED.has(it.type)).length;if(!n)return 'Nivel de práctica oral: lo pasas al completarlo.';return `${n} preguntas. Siempre sigues al siguiente nivel: 3 estrellas sin errores, 2 si aciertas el 80% o más y 1 si aciertas menos. Lo que falles queda en Mejorar.`}
 let S=null,timers=[];
 const clearTimers=()=>{timers.forEach(clearInterval);timers=[]};
 function warmItems(lv){
@@ -1209,14 +1203,14 @@ function warmItems(lv){
 function startLevel(i,fixItems,fixLv){
  const lv=fixItems?{id:'fix',title:'Mejorar',u:-1}:LEVELS[i];const items=[...(fixItems?[]:warmItems(lv)),...(fixItems||lv.build())].filter(Boolean).map((it,k)=>({...it,_k:k}));
  const graded=items.filter(it=>GRADED.has(it.type)&&!it._warm).length;
- S={i,lv,queue:items,total:items.length,done:new Set(),missed:new Set(),answers:[],exam:!!lv.exam,graded,allowed:lv.exam?2:lv.lenient?Math.max(1,Math.floor(graded*.2)):Math.floor(graded*.1),errors:0,dead:false,fix:!!fixItems,fixLv,mastered:0};if(S.fix)S.allowed=Infinity;paintHearts();
+ S={i,lv,queue:items,total:items.length,done:new Set(),missed:new Set(),answers:[],exam:!!lv.exam,graded,errors:0,wrong:[],fix:!!fixItems,fixLv,mastered:0};
  $('prog').style.width='0%';$('examTimer').hidden=!S.exam;clearTimers();
  if(S.exam){let left=20*60;$('examTimer').textContent=fmt(left);$('examTimer').classList.remove('low');
   const id=setInterval(()=>{left--;$('examTimer').textContent=fmt(left);if(left<=120)$('examTimer').classList.add('low');if(left<=0){clearInterval(id);S.queue.forEach(it=>S.answers.push({it,ok:false,given:'(sin responder)'}));S.queue=[];finish()}},1000);S.examTimerId=id}
  setUnit(S.fix?FIXC:UC[lv.u]);show('playView');next();
 }
 $('quitBtn').onclick=()=>{stopHearing();if(confirm('¿Salir? Pierdes el avance de este nivel.')){clearTimers();clearInterval(S?.examTimerId);save();if(S?.vp)openVerbs();else if(S?.fix)openFix();else{show('mapView');renderMap()}}};
-function progress(){const n=S.exam?S.answers.length:S.done.size;$('prog').style.width=(100*n/S.total)+'%'}
+function progress(){const n=S.exam?S.answers.length:S.fix?S.done.size:S.done.size+S.missed.size;$('prog').style.width=(100*n/S.total)+'%'}
 function next(){clearTimers();stopHearing();progress();const it=S.queue.shift();if(!it){finish();return}render(it)}
 const lvSkills=lv=>lv._sk||(lv._sk=[...new Set((()=>{try{return lv.build().map(skillOf)}catch(e){return[]}})().filter(Boolean))]);
 const skLabel=lv=>{const ks=['w','l','s'].filter(k=>lvSkills(lv).includes(k));
@@ -1235,15 +1229,13 @@ function resolve(it,ok,given,correctHtml,explain){
  if(S.exam){S.answers.push({it,ok,given,correctHtml,explain});next();return}
  const counts=GRADED.has(it.type)&&!S.missed.has(it._k);
  if(counts){if(ok)recordHit(it);else recordMiss(it,S.lv.id)}
- if(counts&&!ok&&!S.fix){const h=$('hearts');h.classList.remove('hurt');void h.offsetWidth;h.classList.add('hurt')}
- if(ok)S.done.add(it._k);else{if(counts&&!it._warm)S.errors++;S.missed.add(it._k);S.queue.push(it)}
- if(S.errors>S.allowed)S.dead=true;
- progress();paintHearts();
+ if(ok)S.done.add(it._k);else{if(counts&&!it._warm){S.errors++;S.wrong.push({it,ok:false,given})}S.missed.add(it._k);if(S.fix)S.queue.push(it)}
+ progress();
  const tk=ok||it.pista?null:trickFor(it._lv||S.lv.id);
  const fb=document.createElement('div');fb.className='feedback '+(ok?'good':'bad');
- fb.innerHTML=`<h3><span class="ic" aria-hidden="true">${ok?'✓':'✕'}</span>${ok?pickPraise():'Casi'}</h3>${!ok&&correctHtml?`<p>Respuesta: <b class="m">${correctHtml}</b></p>`:''}${explain?`<p>${explain}</p>`:''}${tk?`<p class="tip"><b>Truco de ${esc(tk.t)}:</b> ${esc(tk.tip)}</p>`:''}${!ok&&!S.dead?'<p style="font-size:.88rem;color:var(--muted)">Esta pregunta volverá a salir al final.</p>':''}${!ok&&!S.dead&&retryNow()&&(it._try||0)<2?'<button class="btn big ghost" id="retryNow" style="margin-top:.6rem">Intentarlo otra vez ahora</button>':''}${S.dead?'<p><b>Te quedaste sin vidas.</b></p>':''}<button class="btn big ${ok?'good':''}" id="cont">${S.dead?'Ver resultado':'Continuar'}</button>`;
- const card=$('stage').querySelector('.card');card.classList.remove('pop','shake');void card.offsetWidth;card.classList.add(ok?'pop':'shake');card.appendChild(fb);if($('retryNow'))$('retryNow').onclick=()=>{it._try=(it._try||0)+1;render(it)};$('cont').focus();
- if(ok){const cb=$('cont').getBoundingClientRect();confetti(cb.left+cb.width/2,cb.top,14,1.1)}$('cont').onclick=S.dead?finish:next;
+ fb.innerHTML=`<h3><span class="ic" aria-hidden="true">${ok?'✓':'✕'}</span>${ok?pickPraise():'Casi'}</h3>${!ok&&correctHtml?`<p>Respuesta: <b class="m">${correctHtml}</b></p>`:''}${explain?`<p>${explain}</p>`:''}${tk?`<p class="tip"><b>Truco de ${esc(tk.t)}:</b> ${esc(tk.tip)}</p>`:''}${!ok?`<p style="font-size:.88rem;color:var(--muted)">${S.fix?'Esta pregunta volverá a salir al final.':'Quedó guardada en Mejorar para repasarla.'}</p>`:''}<button class="btn big ${ok?'good':''}" id="cont">Continuar</button>`;
+ const card=$('stage').querySelector('.card');card.classList.remove('pop','shake');void card.offsetWidth;card.classList.add(ok?'pop':'shake');card.appendChild(fb);$('cont').focus();
+ if(ok){const cb=$('cont').getBoundingClientRect();confetti(cb.left+cb.width/2,cb.top,14,1.1)}$('cont').onclick=next;
 }
 const PRAISE=['¡Bien!','¡Excelente!','¡Eso es!','¡Muy bien!','¡Correcto!','¡Genial!'];
 const pickPraise=()=>PRAISE[Math.floor(Math.random()*PRAISE.length)];
@@ -1305,25 +1297,24 @@ function finish(){
  if(S.fix){finishFix();return}
  const lv=S.lv;
  if(S.exam){S.errors=S.answers.filter(a=>!a.ok).length;S.answers.forEach(a=>{if(a.given==='(sin responder)')return;a.ok?recordHit(a.it):recordMiss(a.it,lv.id)})}
- const failed=S.dead||S.errors>S.allowed;
  const pct=S.graded?Math.max(0,(S.graded-S.errors)/S.graded):1;
  let stars;
- if(failed)stars=0;
- else if(S.graded===0)stars=S.missed.size===0?3:2;
- else stars=S.errors===0?3:S.errors===1?2:1;
+ if(S.graded===0)stars=S.missed.size===0?3:2;
+ else stars=S.errors===0?3:pct>=.8?2:1;
  const prev=state.stars[lv.id]||0;const nowUnlock=stars>=1&&prev<1;
  if(stars>prev)state.stars[lv.id]=stars;
  if(stars>=1){state.doneAt[lv.id]=today();state.xp+=10+stars*5;const d=today();if(state.last!==d){const y=new Date();y.setDate(y.getDate()-1);state.streak=state.last===y.toLocaleDateString('en-CA')?state.streak+1:1;state.last=d}}
  save();
  const nextI=S.i+1;const canNext=nextI<LEVELS.length&&guideOf(LEVELS[nextI])===guideOf(lv)&&unlocked(nextI);
- const msg=stars===3?'Perfecto, sin errores.':stars===2?'Pasaste con un error.':stars===1?'Pasaste por poco. Repítelo mañana para llegar a cero errores.':S.dead?'Te quedaste sin vidas.':'No pasaste.';
- const rule=failed?`<p>Tuviste ${S.errors} ${S.errors===1?'error':'errores'} y el máximo era ${S.allowed}. Repite el nivel: las preguntas cambian de orden.</p>`:'';
+ const msg=stars===3?'Perfecto, sin errores.':stars===2?'Muy bien, sigue así.':'Nivel completado.';
+ const rule=S.errors?`<p>Tuviste ${S.errors} ${S.errors===1?'error':'errores'}. ${S.errors===1?'Quedó guardado':'Quedaron guardados'} en Mejorar para que los practiques.</p>`:'';
  let errs='';
- if(S.exam){const bad=S.answers.filter(a=>!a.ok);if(bad.length)errs=`<div class="errs card"><h3 style="font-size:1rem">Lo que fallaste</h3>${bad.map(a=>{const it=a.it;const q=it.type==='verb'?esc(it.v[0]):(it.q||esc(it.text||it.es||''));const right=it.type==='verb'?esc(it.v.slice(0,3).join(' · ')):it.type==='type'?esc(it.a[0]):it.type==='tf'?(it.ok?'Está bien':esc(it.right)):it.type==='order'?esc(it.en):it.type==='seq'?it.steps.map(esc).join('<br>'):esc(it.a);return`<div><div>${q}</div><div>Tu respuesta: <span class="m">${esc(a.given)}</span></div><div>Correcta: <b class="m">${right}</b>${it.e?` · ${esc(it.e)}`:''}</div></div>`}).join('')}</div>`}
- $('resultView').innerHTML=`<div class="result"><div class="big-stars" role="img" aria-label="${stars} de 3 estrellas">${[0,1,2].map(k=>`<span class="${k<stars?'on':''}" style="--i:${k}">★</span>`).join('')}</div><h2>${esc(msg)}</h2><p>${S.graded?`${Math.round(pct*100)}% ${S.exam?'de respuestas correctas':'bien al primer intento'}`:'Práctica oral completada'}${stars?` · +${10+stars*5} XP`:''}</p>${rule}${nowUnlock&&canNext?`<p><b>Nivel desbloqueado:</b> ${esc(LEVELS[nextI].title)}</p>`:''}<p class="hint">${lvSkills(lv).map(k=>`${SKILLS[k].t}: ${skillPct(k)}%`).join(' · ')}</p>${!failed&&primarySkill(lv)==='s'?'<p class="hint">Vuelve a este nivel mañana. Repetir la misma tarea muchas veces seguidas rinde menos que repetirla en días distintos.</p>':''}
-  <div class="row">${canNext&&!failed?'<button class="btn big" id="rNext">Siguiente nivel</button>':''}${!failed&&isLastOfGuide(lv)&&guideDone(guideOf(lv))?'<button class="btn big" id="rFix">Ir a Mejorar</button>':''}<button class="btn big ghost" id="rAgain">Repetir</button><button class="btn big ghost" id="rMap">Mapa</button></div>${errs}</div>`;
+ {const bad=S.exam?S.answers.filter(a=>!a.ok):S.wrong;if(bad.length)errs=`<div class="errs card"><h3 style="font-size:1rem">Lo que fallaste</h3>${bad.map(a=>{const it=a.it;const q=it.type==='verb'?esc(it.v[0]):(it.q||esc(it.text||it.es||''));const right=it.type==='verb'?esc(it.v.slice(0,3).join(' · ')):it.type==='type'?esc(it.a[0]):it.type==='tf'?(it.ok?'Está bien':esc(it.right)):it.type==='order'?esc(it.en):it.type==='seq'?it.steps.map(esc).join('<br>'):esc(it.a);return`<div><div>${q}</div><div>Tu respuesta: <span class="m">${esc(a.given)}</span></div><div>Correcta: <b class="m">${right}</b>${it.e?` · ${esc(it.e)}`:''}</div></div>`}).join('')}</div>`}
+ $('resultView').innerHTML=`<div class="result"><div class="big-stars" role="img" aria-label="${stars} de 3 estrellas">${[0,1,2].map(k=>`<span class="${k<stars?'on':''}" style="--i:${k}">★</span>`).join('')}</div><h2>${esc(msg)}</h2><p>${S.graded?`${Math.round(pct*100)}% ${S.exam?'de respuestas correctas':'bien al primer intento'}`:'Práctica oral completada'}${stars?` · +${10+stars*5} XP`:''}</p>${rule}${nowUnlock&&canNext?`<p><b>Nivel desbloqueado:</b> ${esc(LEVELS[nextI].title)}</p>`:''}<p class="hint">${lvSkills(lv).map(k=>`${SKILLS[k].t}: ${skillPct(k)}%`).join(' · ')}</p>${primarySkill(lv)==='s'?'<p class="hint">Vuelve a este nivel mañana. Repetir la misma tarea muchas veces seguidas rinde menos que repetirla en días distintos.</p>':''}
+  <div class="row">${canNext?'<button class="btn big" id="rNext">Siguiente nivel</button>':''}${S.errors&&!S.exam?'<button class="btn big ghost" id="rFixLv">Practicar mis errores</button>':''}${isLastOfGuide(lv)&&guideDone(guideOf(lv))?'<button class="btn big" id="rFix">Ir a Mejorar</button>':''}<button class="btn big ghost" id="rAgain">Repetir</button><button class="btn big ghost" id="rMap">Mapa</button></div>${errs}</div>`;
  show('resultView');if(stars){setTimeout(()=>celebrate(stars),350);bump('stStars');bump('stXp')}
- if(canNext&&!failed)$('rNext').onclick=()=>openLevel(nextI);
+ if(canNext)$('rNext').onclick=()=>openLevel(nextI);
+ if($('rFixLv'))$('rFixLv').onclick=()=>startFix(lv.id);
  if($('rFix'))$('rFix').onclick=openFix;$('rAgain').onclick=()=>openLevel(S.i);$('rMap').onclick=()=>{show('mapView');renderMap();const n=document.querySelector('.node.current');n&&n.scrollIntoView({block:'center'})};
 }
 
