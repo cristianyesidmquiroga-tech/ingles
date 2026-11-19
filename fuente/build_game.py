@@ -2,7 +2,7 @@ import json, glob, re, os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 topics = {}
 oral = {}
-for f in glob.glob('final/*.json'):
+for f in sorted(glob.glob('final/*.json')):
     d = json.load(open(f, encoding='utf8'))
     if d['key'] == 'oral':
         oral = d
