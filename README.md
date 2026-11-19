@@ -1,5 +1,20 @@
 # Inglés: camino al parcial
 
+<details>
+<summary><b>Read this in English</b></summary>
+
+Study app for the English exam (written and oral) of the SENA ADSO program, focused on the RAP 5 guide: modals, linking words and phrasal verbs.
+
+- Two guides (RAP 5 and RAP 4) organised by levels, with a short explanation, easy examples and a "do / don't" block before each level.
+- Timed mock exams, reading comprehension and speaking practice with the microphone.
+- **Mejorar**: reviews only the questions you missed.
+- **Verbos**: both verb sheets with a search box, hints to pick the right form, group tricks and practice.
+- **Trucos** and **Clave de respuestas** from the printed guides.
+
+Open `camino-parcial.html` in Chrome or Edge; it works offline except for speech recognition, which the browser runs online. The app is generated from `fuente/` with `python fuente/build_game.py`.
+
+</details>
+
 App de estudio para el parcial de inglés (escrito y oral) del programa ADSO del SENA. Está enfocada en la guía RAP 5: modales, conectores y phrasal verbs.
 
 ## Cómo usarla
