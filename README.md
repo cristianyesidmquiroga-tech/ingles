@@ -17,6 +17,8 @@ Open `camino-parcial.html` in Chrome or Edge; it works offline except for speech
 
 </details>
 
+<img src="docs/capturas/inicio.webp" alt="Pantalla de inicio de la app en el celular" width="320">
+
 App de estudio para el parcial de inglés (escrito y oral) del programa ADSO del SENA. Está enfocada en la guía RAP 5: modales, conectores y phrasal verbs.
 
 ## Cómo usarla
